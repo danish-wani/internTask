@@ -1,0 +1,13 @@
+Argument Passing
+
+The script name and the additional arguments are turned into a list of strings and assigned to the 'argv' variable in the 'sys' module. we can access this list by executing 'import sys'.
+	sys.argv[0] always holds the script name
+	and sys.argv[1..n] holds the arguments repectively.
+
+argumentPassingExample.py  in the same directory calculates the factorial of any number passed as an argument from the interactive mode. 
+
+for example:
+
+	$python3 argumentPassingExample.py  5
+	
+	sys.argv[1] will contain 5 and the factorial of 5 will be given as output.
