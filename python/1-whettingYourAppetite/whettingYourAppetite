@@ -1,0 +1,14 @@
+Python is an object oriented language with high level data structures, dynamic typing and dynamic binding.
+--It has high level built in data types such as, flexible arrays and dictionaries.
+
+The language is named after the BBC show "Monty Python's Flying Circus".
+Python allows us to split our program into modules that can be reused in other python programs.
+
+--It is an interpreted language.
+
+--high level data types allow us to express complex operations in a single statement.
+--statement grouping is done by indentation instead of beginning & end brackets.
+--no variable or argument declarations are necessary.
+
+Python is extensible:for example, we can write a crirical piece of code that needs to be run very fast in c/c++ and then combine with our python program
+

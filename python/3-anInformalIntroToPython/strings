@@ -1,0 +1,67 @@
+	Strings
+Besides numbers, Python can also manipulate strings, which can be expressed in several ways. They can be enclosed in single quotes ('...') or
+double quotes ("...") with the same result.
+\ can be used to escape quotes.
+
+if we don't want characters prefaced by \ to be interpreted as special characters, we can use RAW strings by adding an r before the first quote:
+for example:
+	>>>print('c:\some\name')	#here \n means newline!
+	c:\some
+	ame
+	
+	>>>print(r'c:some\name')	#note the r before the quote
+	c:\some\name
+
+String literals can span multiple lines.One way is using triple-quotes: """...""" or '''...'''.  End of line are automatically included in the string, but it's possible to prevent this by adding a \ at the end of the line.
+
+
+Concatenation:
+	Strings can be concatenated with the + operator and
+	repeated with * :
+
+for example:
+	firstname="danish"
+	lastname="wani"
+	print(firstname + lastname)	#concatenating first and last name
+
+output:	danishwani
+
+	3 * danish	# 3 times danish
+output:	danishdanishdanish
+
+
+Strings can be indexed, with the first char having index 0. There is no separate character type; a character is simply a string of size one.
+Indices may also be negative.
+e.g.,
+		D	A	N	I	S	H
+indices:	0	1	2	3	4	5
+		-6	-5	-4	-3	-2	-1
+
+
+Slicing:	Slicing allows us to obtain substring
+
+for example:
+	>>> word="python"
+	>>> word[0:2]
+output:	'py'
+
+SYNTAX:	string[start:end]	# start is always included & end is always excluded
+
+	s[:i] + s[i:]	# always gives s
+
+--Attempting to use an index that is too large will result in an error:
+	IndexError: string index out of range
+
+
+Python strings can not be changed, they are immutable
+
+for example.,
+	>>>word[0]='t'
+	TypeError: 'str' object does not support item assignment
+
+Length of a string  len(string):
+
+e.g., 
+	>>> len(word)
+	6
+

@@ -1,0 +1,17 @@
+	Numbers
+
+The interpreter acts as a simple calculator: we can type an expression at it and it will write the value. Expression syntax is straightforward: the operators +, -, * and / works just like in most other languages.
+
+
+--Division ( / ) always returns a float. To do floor division and get an integer result we can use the // operator; to calculate the remainder we can use %
+
+--With Python, it is possible to use the ** operator to calculate powers.
+
+--The = sign is used to assin a value to a variable.
+
+--If a variable is "not defined", trying to use it will give us an error.
+
+--the last printed expression is assigned to the variable _. 
+
+
+In addition to int and float, Python supports other types of numbers, such as decimal and Fraction. Python also has built-in support for complex numbers, and uses the j or J suffix to indicate the imaginary part.(e.g. 3 + 5j)
