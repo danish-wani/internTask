@@ -1,0 +1,13 @@
+	lambda expressions
+A lambda function is a small anonymous function. A lambda function can take any number of arguments, but can only have one expression.
+
+e.g.,
+	def incrementor(n):
+		return lambda x: x + n
+
+	f = incrementor(40)
+	f(0)
+	  40
+	f(1)
+	 41
+	

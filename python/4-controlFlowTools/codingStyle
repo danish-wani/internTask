@@ -1,0 +1,10 @@
+		coding style
+
+-- use 4-space indentation, and no tabs.
+-- wrap lines so that they don't exceed 79 chars.
+-- use blank lines to separate functions and classes, and larger blocks of code inside functions.
+-- when possible, put comments on a line of their own.
+-- use docstrings
+-- use spaces around operators and after commas, but not directly inside bracketing constructs.
+-- name classes and functions consistently; the convention is to use camelcase for classes and lower_case_with_underscores for functions and methods. Always use self as the name for the first method argument.
+--

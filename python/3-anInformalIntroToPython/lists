@@ -1,0 +1,15 @@
+	lISTS
+
+Python knows a number of compound data types, used to group togther other values. The most versatile is the list, which can be written as a list of comma-separated 
+values between square brackets. List might contain items of different types, but usually the items all have the same type.
+
+e.g.,
+	>>> square=[1,4,9,16,25]
+
+-- Lists also can be indexed and sliced
+-- It also suppports operations like concatenation
+-- Unlike strings, which are immutable, lists are a mutable type, i.e it is possible to change the content
+-- We can also add new items at the end of the list, by using the append() method.
+-- Assignment to slices is also possible, and this can even change the size of the list or clear it entirely
+-- Built-in function len() also applies to lists.
+-- It is also possible to nest lists

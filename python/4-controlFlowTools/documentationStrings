@@ -1,0 +1,18 @@
+		documentation strings
+
+some conventions about the content and formatting of documentation strings:
+
+--first line should always be short, concise summary of the object's purpose
+--if there are more lines in the documentation string, the second line should be blank, visually separating the summary from the rest of the description.
+
+e.g.,
+	def my_function():
+		"""Do nothing, but document it.
+
+		NO, really, it doesn't do anything.
+		"""
+		pass
+
+
+
+	print(my_function.__doc__)			# __doc__ is the attribute of the function

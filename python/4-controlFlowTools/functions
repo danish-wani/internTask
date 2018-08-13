@@ -1,0 +1,144 @@
+	functions
+We can create a function that writes the Fibonacci series to an arbitary boundary:
+
+	def fib(n):
+		a, b = 0, 1
+		while a < n:
+			print(a, end=' ')	# end each print statement with a space
+			a, b = b, a + b
+		print()
+
+	fib(200)
+
+They keyword def introduces a function definition. It must be followed by the function name and the paranthesized list of formal parameters. The statements that form the body of the function start at the next line, and must be indented.
+
+The first statement of the function body can optionally be a string literal; the string literal is the function's documentation string, or docstring.
+
+The actual parameters to a function call are introduced in the local symbol table of the called function when it is called; thus, arguments are passed call by value ( where the value is always an object reference, not the value of the object--Actually, call by object reference would be a better description, since if a mutable object is passed, the caller will see any changes the callee makes to it)
+
+A function definition introduces the function name in the current symbol table. The value of the function name has a type that is recognized by the interpreter as a user-defined function. This value can be assigned to another name which can be then also be used as a function. This serves as a general renaming mechanism:
+
+
+
+>>> fib
+<function fib at 10042ed0>
+>>> f = fib
+>>> f(100)
+0 1 1 2 3 4 8 13 21 34 55 89
+
+--Functions without a return statement do return a value, this value is called None.
+
+>>> print (fib(0))
+None
+
+
+Default Argument Values:
+	The most useful form is to specify a default value for one or more arguments.
+
+e.g,
+	def defaultArg(prompt, retries=4, reminder='Please try again!'):
+		....
+		....
+		...
+
+
+-- The above function can be called in several ways:
+	-giving only the mandatory argument: defaultArg('Do you really want to quit?')
+	-giving one of the optional arguments: defaultArg('OK to overwrite the file?',2)
+	-or even giving all arguments: defaultArg('OK to overwrite the file?,2,'Come on, only yes or no!')
+
+
+
+
+The default values are evaluated at the point of function definition in the defining scope, so that
+
+	i = 5
+	
+	def f(arg=i):
+		print(arg)
+
+	i = 6
+	f()		#will print 5
+
+
+
+Important Warning:
+	The default value is evaluated only once. This makes the difference when the default is a mutable object such as a list, dictionary, or instances of most classes. For example, the following function accumalates the arguments passed to it on subsequent calls:
+
+e.g.,
+	def f(a, L=[]):
+		L.append(a)
+		return L
+	print(f(1))
+	print(f(2))
+	print(f(3))
+
+--This will print 
+	[1]
+	[1, 2]
+	[1, 2, 3]
+
+--If we don't want the default to be shared between subsequent calls
+
+	def f(a,L=None)
+		if L is None:
+			L=[]
+		L.append(a)
+		return L
+	print(f(1))
+	print(f(2))
+	print(f(3))
+
+--This will print
+	[1]
+	[2]
+	[3]
+
+
+Keyword Arguments:
+	Functions can also be called using keyword arguments of th form kwarg=value. For instance the following function:
+	
+	def parrot(volatage, state='a stiff', action='voom', type='Norwegian blue'):
+		....
+		....
+		....
+
+--the above function can be called in of the following ways:
+	
+	parrot(1000)						# 1 positional argument
+	parrot(voltage=1000)					# 1 keyword argument
+	parrot('a million', 'bereft of life', 'jump')		# 3 positional arguments
+	parrot('a thousand', state='pushing up the daisies')	# 1 positional, 1 keyword
+
+
+
+--all the following calls would be invalid
+
+	parrot()			#required argument missing
+	parrot(voltage=5.0, 'dead')	#non-keyword argument after a keyword argument
+	parrot(110, voltage=220)	#duplicate value for the same argument
+	
+
+
+
+	When a final formal parameter of the form **name is present, it receives a dictionary containing all keyword arguments except for those corresponding to a formal parameter. This may be combined with a formal parameter of the form *name which receives a tuple containing the psoitional arguments beyond the formal parameter list. (*name must occur before **name).
+
+example is in the "posArgKeywordArg.py" file 
+
+
+
+Arbitary Argument lists:
+	Python allows us to specify a function that can be called with an arbitary number of arguments. These arguments will be wrapped up in a tuple. before the variable number nof arguments, zero or more normal arguments may occur.
+Normally these variable dictionary arguments will be last in the list of formal parameters. Any formal parameters which occur after the args* parameter are 'keyword-only' arguments.
+
+e.g.,
+	def concat(*args,sep="/"):
+		return sep.join(args)
+
+	concat("earth","mars","venus")
+	'earth/mars/venus'
+
+
+
+Unpacking Argument Lists:
+	

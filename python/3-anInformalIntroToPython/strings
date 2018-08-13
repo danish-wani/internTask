@@ -64,4 +64,30 @@ Length of a string  len(string):
 e.g., 
 	>>> len(word)
 	6
+	
 
+	String methods:
+--	str.join()	#can be used to construct strings from multiple fragments
+e.g.,
+	name="danish"
+	symbol="-"
+	symbol=symbol.join(name)
+output: d-a-n-i-s-h
+
+
+--	str.capitalize()	#returns a copy of the string with its first char capitalized and the rest lowercased.
+
+--	str.find(sub[,start[,end]])	#returns the lowest index in the string where the substring sub is found within the slice s[start:end]
+					#returns -1 if sub is not found. The find() method should be used only if we need to know the position of the substring.
+					#to check if sub is a substring or not, we use 'in' operator
+					e.g.,	'py' in 'python'
+					output:	true
+
+--	str.index(sub[,start[,end]])	#like find(), but raises ValueError when the substring is not found.
+
+--	str.replace(old,new[count])	#returns a copy of the string with all occurences of substring old replaced by new. If the optional argument count is given,
+					#only the first count occurences are replaced.
+
+--	str.rfind(sub[,start[,end]])	#returns the highest index in the string where substring sub is found. Returns -1 on failure.
+
+--	str.rindex(sub[,start[,end]])	#like rfind() but raises ValueError when substring sub is not foud.

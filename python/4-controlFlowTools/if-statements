@@ -1,0 +1,19 @@
+	if statements
+
+if condition:
+	statement(s)
+e.g.,
+	>>> x=int(input("Please enter an integer:"))
+	Please enter an integer: 25
+	>>> if x < 0:
+		x=0
+		print('Negative changed to 0')
+	    elif x==0:
+		print('zero')
+	    elif x==1:
+		print('Single')
+	    else:
+		print('More')
+
+
+-- there can be zero or more elif parts, and the else part is optional.
