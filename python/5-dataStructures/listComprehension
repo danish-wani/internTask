@@ -1,0 +1,13 @@
+
+A list comprehension consists of brackets containing an expression followed by a for clause, then zero or more for or if clauses. The result will be a new list resulting from evaluating the expression in the context of the for and if clauses which follow it.
+
+e.g.,
+	squares = [x**2 for x in range(10)]
+
+	
+	[(x,y) for x in [1,2,3] for y in [3,1,4] if x != y]
+
+	vec=[[1,2,3],[4,5,6],[7,8,9]]
+	[num for i in vec for num in i]
+output:	[1, 2, 3, 4, 5, 6, 7, 8, 9]
+

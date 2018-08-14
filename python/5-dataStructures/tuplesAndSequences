@@ -1,0 +1,29 @@
+
+A tuple is a standard sequence data type. A tuple consists of a number of values separated by commas, for instance:
+
+	t = 12345, 929292, 'hello'
+	t[0]
+	12345
+
+	tu = t , (1,2,3,4,5,6,7,8,9)	#nested tuple
+
+
+	t[0] = 8888		#tuples are immutable	#error
+
+	
+	v = ([1,2,3],[3,2,1])			#they can contain mutable objects
+
+
+It is not possible to assign to the individual items of a tuple, however it is possible to create tuples which contain mutable objects, such as lists. 
+Tuples are immutable, and usually contain a heterogeneous sequence of elements that are accessed via unpacking or indexing or even by attribute in the case of namedtuples. Lists are mutable and their elements are usually homogeneous and are accessed by iterating over the list.
+
+
+-Empty tuples are constructed by an empty pair of parantheses: atuple with one item is constructed by following a value with a comma.
+e.g.,
+	empty = ()
+	singleton = ('hello',)
+
+
+
+	t = 12345, 554321, 'hello'		#is an example of tuple packing
+	x, y, z = t				#sequence unpacking 

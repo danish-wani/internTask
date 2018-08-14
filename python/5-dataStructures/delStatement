@@ -1,0 +1,17 @@
+
+There is way to remove an item from a list given its index instead of its value: the del statement. This differs from the pop() method which returns a value. It can also be used to remove slices from a list or clear the entire list.
+
+e.g.,
+	a=[-10,3,6,12,30,44,57,76]
+	del a[0]
+
+	del a[1:3]
+	
+	del a[:]
+
+
+	del can also be used to delete entire variables:
+	
+	del a
+	
+	-referencing a hereafter is an error
