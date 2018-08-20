@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<link rel="pingback" href="https://blog.fossasia.org/xmlrpc.php">
+<!--[if lt IE 9]>
+	<script src="https://blog.fossasia.org/wp-content/themes/twentyfifteen/js/html5.js"></script>
+	<![endif]-->
+<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+<title>Nothing found for  Save Server Response To File Using Python In Open Event Andriod App Generator</title>
+
+<link rel="author" href="https://plus.google.com/u/0/108920596016838318216/" />
+<script type="text/javascript">
+				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+				ga('create', 'UA-17146009-5', { 'cookieDomain': 'blog.fossasia.org' } );
+				// Plugins
+				ga('require', 'linkid', 'linkid.js');ga('require', 'outboundLinkTracker');
+				ga('send', 'pageview');
+			</script>
+<script async src="https://www.google-analytics.com/analytics.js"></script>
+<script async src="https://blog.fossasia.org/wp-content/plugins/all-in-one-seo-pack/public/js/vendor/autotrack.js"></script>
+
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//secure.gravatar.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="https://blog.fossasia.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="https://blog.fossasia.org/comments/feed/" />
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.fossasia.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='twentyfifteen-jetpack-css' href='https://blog.fossasia.org/wp-content/plugins/jetpack/modules/theme-tools/compat/twentyfifteen.css?ver=6.4.2' type='text/css' media='all' />
+<link rel='stylesheet' id='dashicons-css' href='https://blog.fossasia.org/wp-includes/css/dashicons.min.css?ver=4.9.8' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-fonts-css' href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<link rel='stylesheet' id='genericons-css' href='https://blog.fossasia.org/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='twentyfifteen-style-css' href='https://blog.fossasia.org/wp-content/themes/twentyfifteen/style.css?ver=4.9.8' type='text/css' media='all' />
+<style id='twentyfifteen-style-inline-css' type='text/css'>
+
+		/* Custom Header Background Color */
+		body:before,
+		.site-header {
+			background-color: #e8e8e8;
+		}
+
+		@media screen and (min-width: 59.6875em) {
+			.site-header,
+			.secondary {
+				background-color: transparent;
+			}
+
+			.widget button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a,
+			.widget_calendar tbody a:hover,
+			.widget_calendar tbody a:focus {
+				color: #e8e8e8;
+			}
+		}
+	
+
+		/* Custom Sidebar Text Color */
+		.site-title a,
+		.site-description,
+		.secondary-toggle:before {
+			color: #3f3f3f;
+		}
+
+		.site-title a:hover,
+		.site-title a:focus {
+			color: #3f3f3f; /* Fallback for IE7 and IE8 */
+			color: rgba( 63, 63, 63, 0.7);
+		}
+
+		.secondary-toggle {
+			border-color: #3f3f3f; /* Fallback for IE7 and IE8 */
+			border-color: rgba( 63, 63, 63, 0.1);
+		}
+
+		.secondary-toggle:hover,
+		.secondary-toggle:focus {
+			border-color: #3f3f3f; /* Fallback for IE7 and IE8 */
+			border-color: rgba( 63, 63, 63, 0.3);
+		}
+
+		.site-title a {
+			outline-color: #3f3f3f; /* Fallback for IE7 and IE8 */
+			outline-color: rgba( 63, 63, 63, 0.3);
+		}
+
+		@media screen and (min-width: 59.6875em) {
+			.secondary a,
+			.dropdown-toggle:after,
+			.widget-title,
+			.widget blockquote cite,
+			.widget blockquote small {
+				color: #3f3f3f;
+			}
+
+			.widget button,
+			.widget input[type="button"],
+			.widget input[type="reset"],
+			.widget input[type="submit"],
+			.widget_calendar tbody a {
+				background-color: #3f3f3f;
+			}
+
+			.textwidget a {
+				border-color: #3f3f3f;
+			}
+
+			.secondary a:hover,
+			.secondary a:focus,
+			.main-navigation .menu-item-description,
+			.widget,
+			.widget blockquote,
+			.widget .wp-caption-text,
+			.widget .gallery-caption {
+				color: rgba( 63, 63, 63, 0.7);
+			}
+
+			.widget button:hover,
+			.widget button:focus,
+			.widget input[type="button"]:hover,
+			.widget input[type="button"]:focus,
+			.widget input[type="reset"]:hover,
+			.widget input[type="reset"]:focus,
+			.widget input[type="submit"]:hover,
+			.widget input[type="submit"]:focus,
+			.widget_calendar tbody a:hover,
+			.widget_calendar tbody a:focus {
+				background-color: rgba( 63, 63, 63, 0.7);
+			}
+
+			.widget blockquote {
+				border-color: rgba( 63, 63, 63, 0.7);
+			}
+
+			.main-navigation ul,
+			.main-navigation li,
+			.secondary-toggle,
+			.widget input,
+			.widget textarea,
+			.widget table,
+			.widget th,
+			.widget td,
+			.widget pre,
+			.widget li,
+			.widget_categories .children,
+			.widget_nav_menu .sub-menu,
+			.widget_pages .children,
+			.widget abbr[title] {
+				border-color: rgba( 63, 63, 63, 0.1);
+			}
+
+			.dropdown-toggle:hover,
+			.dropdown-toggle:focus,
+			.widget hr {
+				background-color: rgba( 63, 63, 63, 0.1);
+			}
+
+			.widget input:focus,
+			.widget textarea:focus {
+				border-color: rgba( 63, 63, 63, 0.3);
+			}
+
+			.sidebar a:focus,
+			.dropdown-toggle:focus {
+				outline-color: rgba( 63, 63, 63, 0.3);
+			}
+		}
+	
+</style>
+<!--[if lt IE 9]>
+<link rel='stylesheet' id='twentyfifteen-ie-css'  href='https://blog.fossasia.org/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='https://blog.fossasia.org/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141010' type='text/css' media='all' />
+<![endif]-->
+<link rel='stylesheet' id='jetpack-widget-social-icons-styles-css' href='https://blog.fossasia.org/wp-content/plugins/jetpack/modules/widgets/social-icons/social-icons.css?ver=20170506' type='text/css' media='all' />
+<link rel='stylesheet' id='jetpack_css-css' href='https://blog.fossasia.org/wp-content/plugins/jetpack/css/jetpack.css?ver=6.4.2' type='text/css' media='all' />
+<script>if (document.location.protocol != "https:") {document.location = document.URL.replace(/^http:/i, "https:");}</script><script type='text/javascript' src='https://blog.fossasia.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
+<script type='text/javascript' src='https://blog.fossasia.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://blog.fossasia.org/wp-content/plugins/jetpack/_inc/build/postmessage.min.js?ver=6.4.2'></script>
+<script type='text/javascript' src='https://blog.fossasia.org/wp-content/plugins/jetpack/_inc/build/jquery.jetpack-resize.min.js?ver=6.4.2'></script>
+<link rel='https://api.w.org/' href='https://blog.fossasia.org/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.fossasia.org/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blog.fossasia.org/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 4.9.8" />
+<link rel='dns-prefetch' href='//v0.wordpress.com' />
+<link rel='dns-prefetch' href='//i0.wp.com' />
+<link rel='dns-prefetch' href='//i1.wp.com' />
+<link rel='dns-prefetch' href='//i2.wp.com' />
+<link rel='dns-prefetch' href='//jetpack.wordpress.com' />
+<link rel='dns-prefetch' href='//s0.wp.com' />
+<link rel='dns-prefetch' href='//s1.wp.com' />
+<link rel='dns-prefetch' href='//s2.wp.com' />
+<link rel='dns-prefetch' href='//public-api.wordpress.com' />
+<link rel='dns-prefetch' href='//0.gravatar.com' />
+<link rel='dns-prefetch' href='//1.gravatar.com' />
+<link rel='dns-prefetch' href='//2.gravatar.com' />
+<link rel='dns-prefetch' href='//widgets.wp.com' />
+<style type='text/css'>img#wpstats{display:none}</style><style type="text/css" id="custom-background-css">
+body.custom-background { background-color: #f4f4f4; }
+</style>
+<link rel="icon" href="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/09/cropped-f-logo-1.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
+<link rel="icon" href="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/09/cropped-f-logo-1.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/09/cropped-f-logo-1.png?fit=180%2C180&#038;ssl=1" />
+<meta name="msapplication-TileImage" content="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/09/cropped-f-logo-1.png?fit=270%2C270&#038;ssl=1" />
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-17146009-5', 'auto');
+  ga('send', 'pageview');
+</script>
+
+<style type="text/css" id="wp-custom-css">
+				/*
+Welcome to Custom CSS!
+
+To learn how this works, see http://wp.me/PEmnE-Bt
+*/			</style>
+</head>
+<body data-rsssl=1 class="error404 custom-background wp-custom-logo">
+<div id="page" class="hfeed site">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<div id="sidebar" class="sidebar">
+<header id="masthead" class="site-header" role="banner">
+<div class="site-branding">
+<a href="https://blog.fossasia.org/" class="custom-logo-link" rel="home" itemprop="url"><img width="248" height="98" src="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2016/09/cropped-fossasia.png?fit=248%2C98&amp;ssl=1" class="custom-logo" alt="" itemprop="logo" data-attachment-id="3676" data-permalink="https://blog.fossasia.org/cropped-fossasia-png/" data-orig-file="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2016/09/cropped-fossasia.png?fit=248%2C98&amp;ssl=1" data-orig-size="248,98" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="cropped-fossasia.png" data-image-description="&lt;p&gt;https://blog.fossasia.org/wp-content/uploads/2016/09/cropped-fossasia.png&lt;/p&gt;
+" data-medium-file="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2016/09/cropped-fossasia.png?fit=248%2C98&amp;ssl=1" data-large-file="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2016/09/cropped-fossasia.png?fit=248%2C98&amp;ssl=1" /></a> <p class="site-title"><a href="https://blog.fossasia.org/" rel="home"></a></p>
+<p class="site-description">Developers of Open Source Software, Open Hardware, Open Knowledge in Asia</p>
+<button class="secondary-toggle">Menu and widgets</button>
+</div>
+</header>
+<div id="secondary" class="secondary">
+<nav id="site-navigation" class="main-navigation" role="navigation">
+<div class="menu-top-menu-bar-container"><ul id="menu-top-menu-bar" class="nav-menu"><li id="menu-item-918" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-918"><a href="http://fossasia.org">Home</a></li>
+<li id="menu-item-919" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-919"><a href="http://fossasia.org/about/">About</a>
+<ul class="sub-menu">
+<li id="menu-item-3864" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3864"><a href="http://fossasia.org/about#background">Background &#038; Mission</a></li>
+<li id="menu-item-4041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4041"><a href="http://fossasia.org/licenses">Licenses</a></li>
+<li id="menu-item-3863" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3863"><a href="http://fossasia.org/team">Team</a></li>
+</ul>
+</li>
+<li id="menu-item-3785" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3785"><a href="http://fossasia.org/apply.html">Apply</a>
+<ul class="sub-menu">
+<li id="menu-item-12814" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12814"><a href="http://codeheat.org">Codeheat</a></li>
+</ul>
+</li>
+<li id="menu-item-2888" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2888"><a href="https://github.com/fossasia">Contribute</a></li>
+<li id="menu-item-920" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-920"><a href="http://labs.fossasia.org/#projects">Projects</a></li>
+<li id="menu-item-921" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-921"><a href="https://blog.fossasia.org">Blog</a></li>
+<li id="menu-item-922" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-922"><a href="http://events.fossasia.org">Events</a>
+<ul class="sub-menu">
+<li id="menu-item-3654" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3654"><a href="http://events.fossasia.org/#sponsorship">Sponsorship</a></li>
+<li id="menu-item-13730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13730"><a href="https://calendar.fossasia.org">Event Calendar</a></li>
+<li id="menu-item-3655" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3655"><a href="http://eventyay.com">Open Source Event Management</a></li>
+<li id="menu-item-3677" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3677"><a href="http://sciencehack.asia">Sciencehack.Asia</a></li>
+<li id="menu-item-3684" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3684"><a href="http://sciencehack.in">Science Hack India</a></li>
+<li id="menu-item-12677" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12677"><a href="http://2018.fossasia.org">FOSSASIA Summit 2018</a></li>
+<li id="menu-item-12815" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12815"><a href="http://opentechsummit.cn">OpenTechSummit China</a></li>
+<li id="menu-item-12816" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12816"><a href="http://jugaadfest.com">Jugaadfest India</a></li>
+<li id="menu-item-1805" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1805"><a href="http://2017.fossasia.org">FOSSASIA Summit 2017</a></li>
+<li id="menu-item-1806" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1806"><a href="http://2016.fossasia.org">FOSSASIA Summit 2016</a></li>
+<li id="menu-item-1807" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1807"><a href="http://2015.fossasia.org">FOSSASIA Summit 2015</a></li>
+<li id="menu-item-1808" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1808"><a href="http://2014.fossasia.org">FOSSASIA Summit 2014</a></li>
+<li id="menu-item-1809" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1809"><a href="http://2012.fossasia.org">FOSSASIA Summit 2012</a></li>
+<li id="menu-item-1810" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1810"><a href="http://2011.fossasia.org">FOSSASIA Summit 2011</a></li>
+<li id="menu-item-1811" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1811"><a href="http://2010.fossasia.org">FOSSASIA Summit 2010</a></li>
+<li id="menu-item-1812" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1812"><a href="https://wiki.debian.org/DebianVietnam/MiniDebConf2010">MiniDebConf Vietnam 2010</a></li>
+<li id="menu-item-1804" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1804"><a href="http://2009.fossasia.org">GNOME.Asia 2009</a></li>
+</ul>
+</li>
+<li id="menu-item-1097" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1097"><a href="http://fossasia.org/donate/">Donate</a></li>
+<li id="menu-item-923" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-923"><a href="https://blog.fossasia.org/contact/">Contact</a></li>
+</ul></div> </nav>
+<div id="widget-area" class="widget-area" role="complementary">
+<aside id="wpcom_social_media_icons_widget-3" class="widget widget_wpcom_social_media_icons_widget"><h2 class="widget-title">Social</h2><ul><li><a href="https://www.facebook.com/fossasia/" class="genericon genericon-facebook" target="_blank"><span class="screen-reader-text">View fossasia&#8217;s profile on Facebook</span></a></li><li><a href="https://twitter.com/fossasia/" class="genericon genericon-twitter" target="_blank"><span class="screen-reader-text">View fossasia&#8217;s profile on Twitter</span></a></li><li><a href="https://www.linkedin.com/in/mariobehling/" class="genericon genericon-linkedin" target="_blank"><span class="screen-reader-text">View mariobehling&#8217;s profile on LinkedIn</span></a></li><li><a href="https://github.com/fossasia/" class="genericon genericon-github" target="_blank"><span class="screen-reader-text">View fossasia&#8217;s profile on GitHub</span></a></li><li><a href="https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ/" class="genericon genericon-youtube" target="_blank"><span class="screen-reader-text">View UCQprMsG-raCIMlBudm20iLQ&#8217;s profile on YouTube</span></a></li><li><a href="https://plus.google.com/u/0/108920596016838318216/" class="genericon genericon-googleplus" target="_blank"><span class="screen-reader-text">View 108920596016838318216&#8217;s profile on Google+</span></a></li><li><a href="https://www.flickr.com/photos/fossasia/" class="genericon genericon-flickr" target="_blank"><span class="screen-reader-text">View fossasia&#8217;s profile on Flickr</span></a></li></ul></aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://blog.fossasia.org/">
+<label>
+<span class="screen-reader-text">Search for:</span>
+<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+</label>
+<input type="submit" class="search-submit screen-reader-text" value="Search" />
+</form></aside><aside id="twitter_timeline-2" class="widget widget_twitter_timeline"><a class="twitter-timeline" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-tweet-limit="2" data-lang="EN" data-partner="jetpack" data-chrome="nofooter noborders noscrollbar transparent" href="https://twitter.com/fossasia" href="https://twitter.com/fossasia">My Tweets</a></aside><aside id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">Tags</h2><div class="tagcloud"><ul class='wp-tag-cloud' role='list'>
+<li><a href="https://blog.fossasia.org/tag/ai/" class="tag-cloud-link tag-link-1299 tag-link-position-1" style="font-size: 9.75pt;" aria-label="AI (47 items)">AI</a></li>
+<li><a href="https://blog.fossasia.org/tag/android/" class="tag-cloud-link tag-link-377 tag-link-position-2" style="font-size: 17.264705882353pt;" aria-label="android (254 items)">android</a></li>
+<li><a href="https://blog.fossasia.org/tag/angular/" class="tag-cloud-link tag-link-674 tag-link-position-3" style="font-size: 8.2058823529412pt;" aria-label="Angular (33 items)">Angular</a></li>
+<li><a href="https://blog.fossasia.org/tag/api/" class="tag-cloud-link tag-link-85 tag-link-position-4" style="font-size: 12.323529411765pt;" aria-label="API (84 items)">API</a></li>
+<li><a href="https://blog.fossasia.org/tag/artificial-intelligence/" class="tag-cloud-link tag-link-819 tag-link-position-5" style="font-size: 11.088235294118pt;" aria-label="Artificial Intelligence (64 items)">Artificial Intelligence</a></li>
+<li><a href="https://blog.fossasia.org/tag/asksusi/" class="tag-cloud-link tag-link-653 tag-link-position-6" style="font-size: 11.808823529412pt;" aria-label="asksusi (75 items)">asksusi</a></li>
+<li><a href="https://blog.fossasia.org/tag/citizen-science/" class="tag-cloud-link tag-link-212 tag-link-position-7" style="font-size: 9.75pt;" aria-label="Citizen Science (47 items)">Citizen Science</a></li>
+<li><a href="https://blog.fossasia.org/tag/css/" class="tag-cloud-link tag-link-394 tag-link-position-8" style="font-size: 8pt;" aria-label="css (31 items)">css</a></li>
+<li><a href="https://blog.fossasia.org/tag/documentation/" class="tag-cloud-link tag-link-569 tag-link-position-9" style="font-size: 8.7205882352941pt;" aria-label="documentation (37 items)">documentation</a></li>
+<li><a href="https://blog.fossasia.org/tag/ember-js/" class="tag-cloud-link tag-link-734 tag-link-position-10" style="font-size: 10.367647058824pt;" aria-label="ember JS (54 items)">ember JS</a></li>
+<li><a href="https://blog.fossasia.org/tag/flask/" class="tag-cloud-link tag-link-411 tag-link-position-11" style="font-size: 11.808823529412pt;" aria-label="flask (75 items)">flask</a></li>
+<li><a href="https://blog.fossasia.org/tag/fossasia/" class="tag-cloud-link tag-link-7 tag-link-position-12" style="font-size: 22pt;" aria-label="FOSSASIA (738 items)">FOSSASIA</a></li>
+<li><a href="https://blog.fossasia.org/tag/github/" class="tag-cloud-link tag-link-417 tag-link-position-13" style="font-size: 8.1029411764706pt;" aria-label="github (32 items)">github</a></li>
+<li><a href="https://blog.fossasia.org/tag/google_summer_of_code/" class="tag-cloud-link tag-link-24 tag-link-position-14" style="font-size: 14.382352941176pt;" aria-label="Google Summer of Code (135 items)">Google Summer of Code</a></li>
+<li><a href="https://blog.fossasia.org/tag/gsoc/" class="tag-cloud-link tag-link-23 tag-link-position-15" style="font-size: 19.220588235294pt;" aria-label="GSoC (395 items)">GSoC</a></li>
+<li><a href="https://blog.fossasia.org/tag/gsoc17/" class="tag-cloud-link tag-link-700 tag-link-position-16" style="font-size: 17.264705882353pt;" aria-label="GSoC17 (255 items)">GSoC17</a></li>
+<li><a href="https://blog.fossasia.org/tag/gsoc18/" class="tag-cloud-link tag-link-2492 tag-link-position-17" style="font-size: 11.088235294118pt;" aria-label="GSoC18 (63 items)">GSoC18</a></li>
+<li><a href="https://blog.fossasia.org/tag/java/" class="tag-cloud-link tag-link-585 tag-link-position-18" style="font-size: 11.088235294118pt;" aria-label="java (64 items)">java</a></li>
+<li><a href="https://blog.fossasia.org/tag/javascript/" class="tag-cloud-link tag-link-275 tag-link-position-19" style="font-size: 11.294117647059pt;" aria-label="Javascript (66 items)">Javascript</a></li>
+<li><a href="https://blog.fossasia.org/tag/json/" class="tag-cloud-link tag-link-427 tag-link-position-20" style="font-size: 8.9264705882353pt;" aria-label="json (39 items)">json</a></li>
+<li><a href="https://blog.fossasia.org/tag/loklak/" class="tag-cloud-link tag-link-115 tag-link-position-21" style="font-size: 14.897058823529pt;" aria-label="loklak (151 items)">loklak</a></li>
+<li><a href="https://blog.fossasia.org/tag/meilix/" class="tag-cloud-link tag-link-258 tag-link-position-22" style="font-size: 9.1323529411765pt;" aria-label="Meilix (41 items)">Meilix</a></li>
+<li><a href="https://blog.fossasia.org/tag/open-event/" class="tag-cloud-link tag-link-438 tag-link-position-23" style="font-size: 20.147058823529pt;" aria-label="open event (489 items)">open event</a></li>
+<li><a href="https://blog.fossasia.org/tag/open-event-frontend/" class="tag-cloud-link tag-link-683 tag-link-position-24" style="font-size: 11.088235294118pt;" aria-label="open event frontend (64 items)">open event frontend</a></li>
+<li><a href="https://blog.fossasia.org/tag/open-event-server/" class="tag-cloud-link tag-link-441 tag-link-position-25" style="font-size: 8.8235294117647pt;" aria-label="open event server (38 items)">open event server</a></li>
+<li><a href="https://blog.fossasia.org/tag/open-science/" class="tag-cloud-link tag-link-251 tag-link-position-26" style="font-size: 9.75pt;" aria-label="Open Science (47 items)">Open Science</a></li>
+<li><a href="https://blog.fossasia.org/tag/open_source/" class="tag-cloud-link tag-link-16 tag-link-position-27" style="font-size: 11.5pt;" aria-label="Open Source (69 items)">Open Source</a></li>
+<li><a href="https://blog.fossasia.org/tag/open-source/" class="tag-cloud-link tag-link-170 tag-link-position-28" style="font-size: 10.161764705882pt;" aria-label="open source (51 items)">open source</a></li>
+<li><a href="https://blog.fossasia.org/tag/organizer-server/" class="tag-cloud-link tag-link-447 tag-link-position-29" style="font-size: 10.985294117647pt;" aria-label="organizer server (62 items)">organizer server</a></li>
+<li><a href="https://blog.fossasia.org/tag/personal-assistant/" class="tag-cloud-link tag-link-820 tag-link-position-30" style="font-size: 10.882352941176pt;" aria-label="Personal Assistant (60 items)">Personal Assistant</a></li>
+<li><a href="https://blog.fossasia.org/tag/phimpme/" class="tag-cloud-link tag-link-701 tag-link-position-31" style="font-size: 11.191176470588pt;" aria-label="phimpme (65 items)">phimpme</a></li>
+<li><a href="https://blog.fossasia.org/tag/pslab/" class="tag-cloud-link tag-link-128 tag-link-position-32" style="font-size: 12.838235294118pt;" aria-label="PSLab (94 items)">PSLab</a></li>
+<li><a href="https://blog.fossasia.org/tag/python/" class="tag-cloud-link tag-link-124 tag-link-position-33" style="font-size: 14.073529411765pt;" aria-label="Python (124 items)">Python</a></li>
+<li><a href="https://blog.fossasia.org/tag/semantic-ui/" class="tag-cloud-link tag-link-735 tag-link-position-34" style="font-size: 8.5147058823529pt;" aria-label="semantic UI (35 items)">semantic UI</a></li>
+<li><a href="https://blog.fossasia.org/tag/steam/" class="tag-cloud-link tag-link-256 tag-link-position-35" style="font-size: 9.75pt;" aria-label="sTeam (47 items)">sTeam</a></li>
+<li><a href="https://blog.fossasia.org/tag/susi/" class="tag-cloud-link tag-link-693 tag-link-position-36" style="font-size: 14.485294117647pt;" aria-label="Susi (136 items)">Susi</a></li>
+<li><a href="https://blog.fossasia.org/tag/susi-ai/" class="tag-cloud-link tag-link-745 tag-link-position-37" style="font-size: 16.852941176471pt;" aria-label="SUSI.AI (236 items)">SUSI.AI</a></li>
+<li><a href="https://blog.fossasia.org/tag/susi-web-chat/" class="tag-cloud-link tag-link-752 tag-link-position-38" style="font-size: 8.6176470588235pt;" aria-label="SUSI Web Chat (36 items)">SUSI Web Chat</a></li>
+<li><a href="https://blog.fossasia.org/tag/susper/" class="tag-cloud-link tag-link-667 tag-link-position-39" style="font-size: 10.676470588235pt;" aria-label="Susper (58 items)">Susper</a></li>
+<li><a href="https://blog.fossasia.org/tag/testing/" class="tag-cloud-link tag-link-282 tag-link-position-40" style="font-size: 8.1029411764706pt;" aria-label="Testing (32 items)">Testing</a></li>
+<li><a href="https://blog.fossasia.org/tag/tutorial/" class="tag-cloud-link tag-link-338 tag-link-position-41" style="font-size: 13.558823529412pt;" aria-label="Tutorial (111 items)">Tutorial</a></li>
+<li><a href="https://blog.fossasia.org/tag/ui/" class="tag-cloud-link tag-link-473 tag-link-position-42" style="font-size: 9.2352941176471pt;" aria-label="UI (42 items)">UI</a></li>
+<li><a href="https://blog.fossasia.org/tag/yacy/" class="tag-cloud-link tag-link-116 tag-link-position-43" style="font-size: 9.2352941176471pt;" aria-label="yacy (42 items)">yacy</a></li>
+<li><a href="https://blog.fossasia.org/tag/yacy-grid/" class="tag-cloud-link tag-link-1225 tag-link-position-44" style="font-size: 8.2058823529412pt;" aria-label="Yacy-Grid (33 items)">Yacy-Grid</a></li>
+<li><a href="https://blog.fossasia.org/tag/yaydoc/" class="tag-cloud-link tag-link-691 tag-link-position-45" style="font-size: 9.5441176470588pt;" aria-label="yaydoc (45 items)">yaydoc</a></li>
+</ul>
+</div>
+</aside> <aside id="recent-posts-2" class="widget widget_recent_entries"> <h2 class="widget-title">Recent Posts</h2> <ul>
+<li>
+<a href="https://blog.fossasia.org/deploying-susper-on-heroku/">Deploying Susper On Heroku</a>
+</li>
+<li>
+<a href="https://blog.fossasia.org/mapping-events-to-load-from-database/">Mapping Events to Load from Database</a>
+</li>
+<li>
+<a href="https://blog.fossasia.org/displaying-charts-on-lightbox/">Displaying Charts on Lightbox</a>
+</li>
+<li>
+<a href="https://blog.fossasia.org/creating-multiple-attendee-details-sections-in-open-event-android/">Creating multiple Attendee Details sections in Open Event Android</a>
+</li>
+</ul>
+</aside><aside id="text-2" class="widget widget_text"><h2 class="widget-title">Subscribe</h2> <div class="textwidget"><form action="https://freelayers.net/subscribe" method="POST" accept-charset="utf-8">
+<label for="name">Name</label><br />
+<input type="text" name="name" id="name" />
+<br />
+<label for="email">Email</label><br />
+<input type="email" name="email" id="email" />
+<br />
+<label for="FirstName">FirstName</label><br />
+<input type="text" name="FirstName" id="FirstName" /><br />
+<div style="display:none;">
+<label for="hp">HP</label><br />
+<input type="text" name="hp" id="hp" />
+</div>
+<input type="hidden" name="list" value="A8fchTRvBw2wap1ojIfjyQ" />
+<input type="hidden" name="subform" value="yes" />
+<input type="submit" name="submit" id="submit" />
+</form></div>
+</aside><aside id="text-4" class="widget widget_text"> <div class="textwidget"><iframe scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width:100%; height: 220px;" src="https://www.facebook.com/plugins/likebox.php?id=126893747338271&amp;width=230&amp;connections=15&amp;stream=false&amp;header=false&amp;height=395"></iframe></div>
+</aside> </div>
+</div>
+</div>
+<div id="content" class="site-content">
+<div id="primary" class="content-area">
+<main id="main" class="site-main" role="main">
+<section class="error-404 not-found">
+<header class="page-header">
+<h1 class="page-title">Oops! That page can&rsquo;t be found.</h1>
+</header>
+<div class="page-content">
+<p>It looks like nothing was found at this location. Maybe try a search?</p>
+<form role="search" method="get" class="search-form" action="https://blog.fossasia.org/">
+<label>
+<span class="screen-reader-text">Search for:</span>
+<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
+</label>
+<input type="submit" class="search-submit screen-reader-text" value="Search" />
+</form> </div>
+</section>
+</main>
+</div>
+</div>
+<footer id="colophon" class="site-footer" role="contentinfo">
+<div class="site-info">
+<a href="https://wordpress.org/">Proudly powered by WordPress</a>
+</div>
+</footer>
+</div>
+<div style="display:none">
+</div>
+<script type='text/javascript' src='https://blog.fossasia.org/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js?ver=20130122'></script>
+<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201834'></script>
+<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2018Augaa'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.fossasia.org/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://blog.fossasia.org/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js?ver=20141010'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://blog.fossasia.org/wp-content/themes/twentyfifteen/js/functions.js?ver=20150330'></script>
+<script type='text/javascript' src='https://blog.fossasia.org/wp-content/plugins/jetpack/_inc/build/twitter-timeline.min.js?ver=4.0.0'></script>
+<script type='text/javascript' src='https://blog.fossasia.org/wp-content/plugins/jetpack/_inc/build/likes/queuehandler.min.js?ver=6.4.2'></script>
+<script type='text/javascript' src='https://blog.fossasia.org/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
+<script type='text/javascript' src='https://stats.wp.com/e-201834.js' async='async' defer='defer'></script>
+<script type='text/javascript'>
+	_stq = window._stq || [];
+	_stq.push([ 'view', {v:'ext',j:'1:6.4.2',blog:'113450817',post:'0',tz:'8',srv:'blog.fossasia.org'} ]);
+	_stq.push([ 'clickTrackerInit', '113450817', '0' ]);
+</script>
+</body>
+</html>
