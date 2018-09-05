@@ -1,444 +1,146 @@
-<!DOCTYPE html>
-<html lang="en-US" class="no-js">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width">
-<link rel="profile" href="https://gmpg.org/xfn/11">
-<link rel="pingback" href="https://blog.fossasia.org/xmlrpc.php">
-<!--[if lt IE 9]>
-	<script src="https://blog.fossasia.org/wp-content/themes/twentyfifteen/js/html5.js"></script>
-	<![endif]-->
-<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
-<title>Nothing found for  Save Server Response To File Using Python In Open Event Andriod App Generator</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta http-equiv="Content-Language" content="English" />
+	<meta name="Robots" content="index,follow" />
+	<META NAME='Keyword' CONTENT='kashmir, kashmiri, kashmir names, kashmiri proverbs, kashmiri places, kashmiri sayings, srinagar, india, kashmir valley' />
+	<META NAME='Description' CONTENT='All about Kashmir - The Kashmirpedia - names, proverbs, sayings, places' />
+    <meta name="google-site-verification" content="1V3OH2XA3omo2-1OEQ1M6farSCBdYoRp8-eVvqGWE0Q" />
+    <meta property="fb:admins" content="1047285262" />
+    <meta name="msvalidate.01" content="252ED1C102794A3E44F278CF8509B19A" />
+	<title>All about Kashmir - The Kashmirpedia - names, proverbs, sayings, places</title>
 
-<link rel="author" href="https://plus.google.com/u/0/108920596016838318216/" />
-<script type="text/javascript">
-				window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-				ga('create', 'UA-17146009-5', { 'cookieDomain': 'blog.fossasia.org' } );
-				// Plugins
-				ga('require', 'linkid', 'linkid.js');ga('require', 'outboundLinkTracker');
-				ga('send', 'pageview');
-			</script>
-<script async src="https://www.google-analytics.com/analytics.js"></script>
-<script async src="https://blog.fossasia.org/wp-content/plugins/all-in-one-seo-pack/public/js/vendor/autotrack.js"></script>
-
-<link rel='dns-prefetch' href='//s0.wp.com' />
-<link rel='dns-prefetch' href='//secure.gravatar.com' />
-<link rel='dns-prefetch' href='//fonts.googleapis.com' />
-<link rel='dns-prefetch' href='//s.w.org' />
-<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
-<link rel="alternate" type="application/rss+xml" title=" &raquo; Feed" href="https://blog.fossasia.org/feed/" />
-<link rel="alternate" type="application/rss+xml" title=" &raquo; Comments Feed" href="https://blog.fossasia.org/comments/feed/" />
-<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/blog.fossasia.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.8"}};
-			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-<link rel='stylesheet' id='twentyfifteen-jetpack-css' href='https://blog.fossasia.org/wp-content/plugins/jetpack/modules/theme-tools/compat/twentyfifteen.css?ver=6.4.2' type='text/css' media='all' />
-<link rel='stylesheet' id='dashicons-css' href='https://blog.fossasia.org/wp-includes/css/dashicons.min.css?ver=4.9.8' type='text/css' media='all' />
-<link rel='stylesheet' id='twentyfifteen-fonts-css' href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
-<link rel='stylesheet' id='genericons-css' href='https://blog.fossasia.org/wp-content/plugins/jetpack/_inc/genericons/genericons/genericons.css?ver=3.1' type='text/css' media='all' />
-<link rel='stylesheet' id='twentyfifteen-style-css' href='https://blog.fossasia.org/wp-content/themes/twentyfifteen/style.css?ver=4.9.8' type='text/css' media='all' />
-<style id='twentyfifteen-style-inline-css' type='text/css'>
-
-		/* Custom Header Background Color */
-		body:before,
-		.site-header {
-			background-color: #e8e8e8;
-		}
-
-		@media screen and (min-width: 59.6875em) {
-			.site-header,
-			.secondary {
-				background-color: transparent;
-			}
-
-			.widget button,
-			.widget input[type="button"],
-			.widget input[type="reset"],
-			.widget input[type="submit"],
-			.widget_calendar tbody a,
-			.widget_calendar tbody a:hover,
-			.widget_calendar tbody a:focus {
-				color: #e8e8e8;
-			}
-		}
-	
-
-		/* Custom Sidebar Text Color */
-		.site-title a,
-		.site-description,
-		.secondary-toggle:before {
-			color: #3f3f3f;
-		}
-
-		.site-title a:hover,
-		.site-title a:focus {
-			color: #3f3f3f; /* Fallback for IE7 and IE8 */
-			color: rgba( 63, 63, 63, 0.7);
-		}
-
-		.secondary-toggle {
-			border-color: #3f3f3f; /* Fallback for IE7 and IE8 */
-			border-color: rgba( 63, 63, 63, 0.1);
-		}
-
-		.secondary-toggle:hover,
-		.secondary-toggle:focus {
-			border-color: #3f3f3f; /* Fallback for IE7 and IE8 */
-			border-color: rgba( 63, 63, 63, 0.3);
-		}
-
-		.site-title a {
-			outline-color: #3f3f3f; /* Fallback for IE7 and IE8 */
-			outline-color: rgba( 63, 63, 63, 0.3);
-		}
-
-		@media screen and (min-width: 59.6875em) {
-			.secondary a,
-			.dropdown-toggle:after,
-			.widget-title,
-			.widget blockquote cite,
-			.widget blockquote small {
-				color: #3f3f3f;
-			}
-
-			.widget button,
-			.widget input[type="button"],
-			.widget input[type="reset"],
-			.widget input[type="submit"],
-			.widget_calendar tbody a {
-				background-color: #3f3f3f;
-			}
-
-			.textwidget a {
-				border-color: #3f3f3f;
-			}
-
-			.secondary a:hover,
-			.secondary a:focus,
-			.main-navigation .menu-item-description,
-			.widget,
-			.widget blockquote,
-			.widget .wp-caption-text,
-			.widget .gallery-caption {
-				color: rgba( 63, 63, 63, 0.7);
-			}
-
-			.widget button:hover,
-			.widget button:focus,
-			.widget input[type="button"]:hover,
-			.widget input[type="button"]:focus,
-			.widget input[type="reset"]:hover,
-			.widget input[type="reset"]:focus,
-			.widget input[type="submit"]:hover,
-			.widget input[type="submit"]:focus,
-			.widget_calendar tbody a:hover,
-			.widget_calendar tbody a:focus {
-				background-color: rgba( 63, 63, 63, 0.7);
-			}
-
-			.widget blockquote {
-				border-color: rgba( 63, 63, 63, 0.7);
-			}
-
-			.main-navigation ul,
-			.main-navigation li,
-			.secondary-toggle,
-			.widget input,
-			.widget textarea,
-			.widget table,
-			.widget th,
-			.widget td,
-			.widget pre,
-			.widget li,
-			.widget_categories .children,
-			.widget_nav_menu .sub-menu,
-			.widget_pages .children,
-			.widget abbr[title] {
-				border-color: rgba( 63, 63, 63, 0.1);
-			}
-
-			.dropdown-toggle:hover,
-			.dropdown-toggle:focus,
-			.widget hr {
-				background-color: rgba( 63, 63, 63, 0.1);
-			}
-
-			.widget input:focus,
-			.widget textarea:focus {
-				border-color: rgba( 63, 63, 63, 0.3);
-			}
-
-			.sidebar a:focus,
-			.dropdown-toggle:focus {
-				outline-color: rgba( 63, 63, 63, 0.3);
-			}
-		}
-	
-</style>
-<!--[if lt IE 9]>
-<link rel='stylesheet' id='twentyfifteen-ie-css'  href='https://blog.fossasia.org/wp-content/themes/twentyfifteen/css/ie.css?ver=20141010' type='text/css' media='all' />
-<![endif]-->
-<!--[if lt IE 8]>
-<link rel='stylesheet' id='twentyfifteen-ie7-css'  href='https://blog.fossasia.org/wp-content/themes/twentyfifteen/css/ie7.css?ver=20141010' type='text/css' media='all' />
-<![endif]-->
-<link rel='stylesheet' id='jetpack-widget-social-icons-styles-css' href='https://blog.fossasia.org/wp-content/plugins/jetpack/modules/widgets/social-icons/social-icons.css?ver=20170506' type='text/css' media='all' />
-<link rel='stylesheet' id='jetpack_css-css' href='https://blog.fossasia.org/wp-content/plugins/jetpack/css/jetpack.css?ver=6.4.2' type='text/css' media='all' />
-<script>if (document.location.protocol != "https:") {document.location = document.URL.replace(/^http:/i, "https:");}</script><script type='text/javascript' src='https://blog.fossasia.org/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='https://blog.fossasia.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<script type='text/javascript' src='https://blog.fossasia.org/wp-content/plugins/jetpack/_inc/build/postmessage.min.js?ver=6.4.2'></script>
-<script type='text/javascript' src='https://blog.fossasia.org/wp-content/plugins/jetpack/_inc/build/jquery.jetpack-resize.min.js?ver=6.4.2'></script>
-<link rel='https://api.w.org/' href='https://blog.fossasia.org/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://blog.fossasia.org/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://blog.fossasia.org/wp-includes/wlwmanifest.xml" />
-<meta name="generator" content="WordPress 4.9.8" />
-<link rel='dns-prefetch' href='//v0.wordpress.com' />
-<link rel='dns-prefetch' href='//i0.wp.com' />
-<link rel='dns-prefetch' href='//i1.wp.com' />
-<link rel='dns-prefetch' href='//i2.wp.com' />
-<link rel='dns-prefetch' href='//jetpack.wordpress.com' />
-<link rel='dns-prefetch' href='//s0.wp.com' />
-<link rel='dns-prefetch' href='//s1.wp.com' />
-<link rel='dns-prefetch' href='//s2.wp.com' />
-<link rel='dns-prefetch' href='//public-api.wordpress.com' />
-<link rel='dns-prefetch' href='//0.gravatar.com' />
-<link rel='dns-prefetch' href='//1.gravatar.com' />
-<link rel='dns-prefetch' href='//2.gravatar.com' />
-<link rel='dns-prefetch' href='//widgets.wp.com' />
-<style type='text/css'>img#wpstats{display:none}</style><style type="text/css" id="custom-background-css">
-body.custom-background { background-color: #f4f4f4; }
-</style>
-<link rel="icon" href="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/09/cropped-f-logo-1.png?fit=32%2C32&#038;ssl=1" sizes="32x32" />
-<link rel="icon" href="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/09/cropped-f-logo-1.png?fit=192%2C192&#038;ssl=1" sizes="192x192" />
-<link rel="apple-touch-icon-precomposed" href="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/09/cropped-f-logo-1.png?fit=180%2C180&#038;ssl=1" />
-<meta name="msapplication-TileImage" content="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2017/09/cropped-f-logo-1.png?fit=270%2C270&#038;ssl=1" />
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <script src="/cdn-cgi/apps/head/ggyo5mznVSuXW0YLLZXkrrFWBKc.js"></script><link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="/css/kp.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery.js"></script>
+	<script src="/js/jquery.cookie.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+	<script src="/js/jquery.validate.min.js"></script>
+	<script src="/js/jquery.highlight.js"></script>
+    <script src='/js/jquery.autosize-min.js'></script>
+    
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+</head><body>
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-  ga('create', 'UA-17146009-5', 'auto');
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2685507-12', 'kauls.net');
   ga('send', 'pageview');
-</script>
 
-<style type="text/css" id="wp-custom-css">
-				/*
-Welcome to Custom CSS!
+</script>    <div class="hero-unit">
+        <h1><img src="img/kashmirpedias.png" width="128" height="87" alt="kashmirpedia" />Kashmirpedia</h1>
+      <p class="lead">Kashmirpedia is a catalog of all <span class="label label-inverse">things</span>, <span class="label label-success">words</span>, <span class="label label-warning">names</span>, <span class="label label-important">places</span>, <span class="label label-info">terms</span>, <span class="label label-inverse">foods</span> and <span class="label label-success">sayings / phrases / proverbs</span> that are just typical Kashmiri.</p>
+      <p>It is a community effort and <span class="label label-success">you</span> can make it successful by adding words to it</p>
+        <p>It is very easy to use - just search for a term, let's say Dumaloo 
+        <form action="search.php" method="GET" class="form-search" id="srchform">
+          <div class="input-append">
+            <input name="srchstr" type="text" class="search-query input-xlarge" id="srchstr" value="Dumaloo"/>
+            <button type="submit" class="btn">Search</button>
+          </div>
+        </form>
+		click Search, and if you don't find it, just add it and whatever you know about it - that's it.</p>
+        <p>Or you can lookup the meaning of an English word to find its Kashmiri equivalent, try it here now
+        <form action="searchr.php" method="GET" class="form-search" id="srchform">
+            <div class="input-append">
+            <input name="srchstrr" type="text" class="search-query input-xlarge" id="srchstrr" placeholder="Type an English word"/>
+            <button type="submit" class="btn btn-inverse">Lookup</button>
+            </div>
+        </form>
+        </p>
+       
+        <p class="pull-left"><a href="add.php" class="btn btn-primary btn-large">I want to add something</a></p>
+        </div>
+    
+<div class="container-fluid">
+<link rel="stylesheet" href="wordcloud.css" type="text/css">
 
-To learn how this works, see http://wp.me/PEmnE-Bt
-*/			</style>
-</head>
-<body data-rsssl=1 class="error404 custom-background wp-custom-logo">
-<div id="page" class="hfeed site">
-<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-<div id="sidebar" class="sidebar">
-<header id="masthead" class="site-header" role="banner">
-<div class="site-branding">
-<a href="https://blog.fossasia.org/" class="custom-logo-link" rel="home" itemprop="url"><img width="248" height="98" src="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2016/09/cropped-fossasia.png?fit=248%2C98&amp;ssl=1" class="custom-logo" alt="" itemprop="logo" data-attachment-id="3676" data-permalink="https://blog.fossasia.org/cropped-fossasia-png/" data-orig-file="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2016/09/cropped-fossasia.png?fit=248%2C98&amp;ssl=1" data-orig-size="248,98" data-comments-opened="1" data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;,&quot;orientation&quot;:&quot;0&quot;}" data-image-title="cropped-fossasia.png" data-image-description="&lt;p&gt;https://blog.fossasia.org/wp-content/uploads/2016/09/cropped-fossasia.png&lt;/p&gt;
-" data-medium-file="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2016/09/cropped-fossasia.png?fit=248%2C98&amp;ssl=1" data-large-file="https://i0.wp.com/blog.fossasia.org/wp-content/uploads/2016/09/cropped-fossasia.png?fit=248%2C98&amp;ssl=1" /></a> <p class="site-title"><a href="https://blog.fossasia.org/" rel="home"></a></p>
-<p class="site-description">Developers of Open Source Software, Open Hardware, Open Knowledge in Asia</p>
-<button class="secondary-toggle">Menu and widgets</button>
+
+ &nbsp; <a href="@aedij.......Hoon aedij" class="word size0">@AEDIJ.......HOON AEDIJ</a> &nbsp; &nbsp; <a href="@haaput" class="word size0">@HAAPUT</a> &nbsp; &nbsp; <a href="@Kalkharaab" class="word size0">@KALKHARAAB</a> &nbsp; &nbsp; <a href="@laanat" class="word size0">@LAANAT</a> &nbsp; &nbsp; <a href="@wadun" class="word size0">@WADUN</a> &nbsp; &nbsp; <a href="aab" class="word size0">AAB</a> &nbsp; &nbsp; <a href="Aagur" class="word size0">AAGUR</a> &nbsp; &nbsp; <a href="Aaleh" class="word size0">AALEH</a> &nbsp; &nbsp; <a href="Aam" class="word size0">AAM</a> &nbsp; &nbsp; <a href="Aangun" class="word size0">AANGUN</a> &nbsp; &nbsp; <a href="Aapraavun" class="word size0">AAPRAAVUN</a> &nbsp; &nbsp; <a href="aata shak" class="word size0">AATA SHAK</a> &nbsp; &nbsp; <a href="aathe" class="word size0">AATHE</a> &nbsp; &nbsp; <a href="Aavlun" class="word size1">AAVLUN</a> &nbsp; &nbsp; <a href="Aavur" class="word size1">AAVUR</a> &nbsp; &nbsp; <a href="Aay" class="word size0">AAY</a> &nbsp; &nbsp; <a href="Abakh Chhan" class="word size0">ABAKH CHHAN</a> &nbsp; &nbsp; <a href="Ach" class="word size0">ACH</a> &nbsp; &nbsp; <a href="Acharwal" class="word size0">ACHARWAL</a> &nbsp; &nbsp; <a href="adar  zat" class="word size0">ADAR  ZAT</a> &nbsp; &nbsp; <a href="adi pagal" class="word size0">ADI PAGAL</a> &nbsp; &nbsp; <a href="Adlyok" class="word size0">ADLYOK</a> &nbsp; &nbsp; <a href="Aeal" class="word size0">AEAL</a> &nbsp; &nbsp; <a href="Aedij" class="word size0">AEDIJ</a> &nbsp; &nbsp; <a href="Agadi" class="word size0">AGADI</a> &nbsp; &nbsp; <a href="agadi  gachun" class="word size0">AGADI  GACHUN</a> &nbsp; &nbsp; <a href="Agadi gachun" class="word size0">AGADI GACHUN</a> &nbsp; &nbsp; <a href="ahok" class="word size0">AHOK</a> &nbsp; &nbsp; <a href="Aile adrakh" class="word size1">AILE ADRAKH</a> &nbsp; &nbsp; <a href="akchore" class="word size0">AKCHORE</a> &nbsp; &nbsp; <a href="Akh" class="word size0">AKH</a> &nbsp; &nbsp; <a href="Amar Singh College" class="word size0">AMAR SINGH COLLEGE</a> &nbsp; &nbsp; <a href="Ander" class="word size0">ANDER</a> &nbsp; &nbsp; <a href="Andram" class="word size0">ANDRAM</a> &nbsp; &nbsp; <a href="aneh   gagur" class="word size0">ANEH   GAGUR</a> &nbsp; &nbsp; <a href="Angreez" class="word size0">ANGREEZ</a> &nbsp; &nbsp; <a href="Angrez" class="word size0">ANGREZ</a> &nbsp; &nbsp; <a href="Ani guet" class="word size0">ANI GUET</a> &nbsp; &nbsp; <a href="Anime" class="word size0">ANIME</a> &nbsp; &nbsp; <a href="Apuz" class="word size0">APUZ</a> &nbsp; &nbsp; <a href="Arnimaal" class="word size0">ARNIMAAL</a> &nbsp; &nbsp; <a href="Arnimal" class="word size0">ARNIMAL</a> &nbsp; &nbsp; <a href="arzu dhor khot" class="word size0">ARZU DHOR KHOT</a> &nbsp; &nbsp; <a href="Asil" class="word size0">ASIL</a> &nbsp; &nbsp; <a href="Ath" class="word size0">ATH</a> &nbsp; &nbsp; <a href="Ather" class="word size0">ATHER</a> &nbsp; &nbsp; <a href="Awai" class="word size0">AWAI</a> &nbsp; &nbsp; <a href="Awesome" class="word size0">AWESOME</a> &nbsp; &nbsp; <a href="Baakh" class="word size0">BAAKH</a> &nbsp; &nbsp; <a href="Baand" class="word size0">BAAND</a> &nbsp; &nbsp; <a href="Baand Paethir" class="word size0">BAAND PAETHIR</a> &nbsp; &nbsp; <a href="Baanhaal" class="word size0">BAANHAAL</a> &nbsp; &nbsp; <a href="Baazar" class="word size0">BAAZAR</a> &nbsp; &nbsp; <a href="Badan" class="word size0">BADAN</a> &nbsp; &nbsp; <a href="Badiyan" class="word size0">BADIYAN</a> &nbsp; &nbsp; <a href="Bahak" class="word size0">BAHAK</a> &nbsp; &nbsp; <a href="Bair" class="word size0">BAIR</a> &nbsp; &nbsp; <a href="Bakaar" class="word size0">BAKAAR</a> &nbsp; &nbsp; <a href="Baklad" class="word size0">BAKLAD</a> &nbsp; &nbsp; <a href="balaay" class="word size0">BALAAY</a> &nbsp; &nbsp; <a href="Balai" class="word size0">BALAI</a> &nbsp; &nbsp; <a href="Balayi" class="word size0">BALAYI</a> &nbsp; &nbsp; <a href="Balayi lagay" class="word size0">BALAYI LAGAY</a> &nbsp; &nbsp; <a href="bamb" class="word size0">BAMB</a> &nbsp; &nbsp; <a href="Bambaer" class="word size0">BAMBAER</a> &nbsp; &nbsp; <a href="Baneh" class="word size1">BANEH</a> &nbsp; &nbsp; <a href="Bani" class="word size0">BANI</a> &nbsp; &nbsp; <a href="Baradar" class="word size0">BARADAR</a> &nbsp; &nbsp; <a href="Barkat" class="word size0">BARKAT</a> &nbsp; &nbsp; <a href="Bat myaat" class="word size0">BAT MYAAT</a> &nbsp; &nbsp; <a href="Bateh" class="word size0">BATEH</a> &nbsp; &nbsp; <a href="Batni" class="word size0">BATNI</a> &nbsp; &nbsp; <a href="Batta" class="word size0">BATTA</a> &nbsp; &nbsp; <a href="Batukh" class="word size0">BATUKH</a> &nbsp; &nbsp; <a href="bavath   karun" class="word size0">BAVATH   KARUN</a> &nbsp; &nbsp; <a href="Bazaar" class="word size0">BAZAAR</a> &nbsp; &nbsp; <a href="BHAGWAN" class="word size0">BHAGWAN</a> &nbsp; &nbsp; <a href="bhatt" class="word size0">BHATT</a> &nbsp; &nbsp; <a href="Bichor" class="word size0">BICHOR</a> &nbsp; &nbsp; <a href="Biscoe School" class="word size0">BISCOE SCHOOL</a> &nbsp; &nbsp; <a href="Bochhi" class="word size0">BOCHHI</a> &nbsp; &nbsp; <a href="Boey" class="word size1">BOEY</a> &nbsp; &nbsp; <a href="Boey hay chukh" class="word size0">BOEY HAY CHUKH</a> &nbsp; &nbsp; <a href="Bokewachi" class="word size0">BOKEWACHI</a> &nbsp; &nbsp; <a href="Bon" class="word size0">BON</a> &nbsp; &nbsp; <a href="Booth" class="word size0">BOOTH</a> &nbsp; &nbsp; <a href="Boumb" class="word size0">BOUMB</a> &nbsp; &nbsp; <a href="Boze" class="word size0">BOZE</a> &nbsp; &nbsp; <a href="Bozun" class="word size0">BOZUN</a> &nbsp; &nbsp; <a href="Braand" class="word size0">BRAAND</a> &nbsp; &nbsp; <a href="Braandh Kyen" class="word size0">BRAANDH KYEN</a> &nbsp; &nbsp; <a href="Braer" class="word size0">BRAER</a> &nbsp; &nbsp; <a href="BRAHMASAR" class="word size0">BRAHMASAR</a> &nbsp; &nbsp; <a href="Bramh" class="word size0">BRAMH</a> &nbsp; &nbsp; <a href="bramm" class="word size0">BRAMM</a> &nbsp; &nbsp; <a href="Bronth" class="word size0">BRONTH</a> &nbsp; &nbsp; <a href="Bulyun" class="word size0">BULYUN</a> &nbsp; &nbsp; <a href="Bum choonth" class="word size2">BUM CHOONTH</a> &nbsp; &nbsp; <a href="bumchoont" class="word size0">BUMCHOONT</a> &nbsp; &nbsp; <a href="BURHAN" class="word size0">BURHAN</a> &nbsp; &nbsp; <a href="Burn Hall" class="word size0">BURN HALL</a> &nbsp; &nbsp; <a href="Buthi Buthi din" class="word size0">BUTHI BUTHI DIN</a> &nbsp; &nbsp; <a href="butrath" class="word size0">BUTRATH</a> &nbsp; &nbsp; <a href="Buythih Byuthih Dyun" class="word size0">BUYTHIH BYUTHIH DYUN</a> &nbsp; &nbsp; <a href="Byaenyi" class="word size0">BYAENYI</a> &nbsp; &nbsp; <a href="Byakar" class="word size0">BYAKAR</a> &nbsp; &nbsp; <a href="Byakars che hath kar" class="word size0">BYAKARS CHE HATH KAR</a> &nbsp; &nbsp; <a href="Byekar" class="word size0">BYEKAR</a> &nbsp; &nbsp; <a href="Cancer" class="word size0">CANCER</a> &nbsp; &nbsp; <a href="Cancer e" class="word size0">CANCER E</a> &nbsp; &nbsp; <a href="Chaaklate" class="word size0">CHAAKLATE</a> &nbsp; &nbsp; <a href="Chaaman" class="word size0">CHAAMAN</a> &nbsp; &nbsp; <a href="Chaan" class="word size1">CHAAN</a> &nbsp; &nbsp; <a href="Chaas" class="word size0">CHAAS</a> &nbsp; &nbsp; <a href="Chack" class="word size0">CHACK</a> &nbsp; &nbsp; <a href="Chagul" class="word size0">CHAGUL</a> &nbsp; &nbsp; <a href="Chai" class="word size0">CHAI</a> &nbsp; &nbsp; <a href="Chakunjal" class="word size0">CHAKUNJAL</a> &nbsp; &nbsp; <a href="Chandram" class="word size0">CHANDRAM</a> &nbsp; &nbsp; <a href="Char Chinari" class="word size0">CHAR CHINARI</a> &nbsp; &nbsp; <a href="charaganeh" class="word size0">CHARAGANEH</a> &nbsp; &nbsp; <a href="Charagbag" class="word size0">CHARAGBAG</a> &nbsp; &nbsp; <a href="Charvan" class="word size0">CHARVAN</a> &nbsp; &nbsp; <a href="chatinov" class="word size0">CHATINOV</a> &nbsp; &nbsp; <a href="Chatun" class="word size0">CHATUN</a> &nbsp; &nbsp; <a href="che rumreshiun aay" class="word size0">CHE RUMRESHIUN AAY</a> &nbsp; &nbsp; <a href="Cheent" class="word size0">CHEENT</a> &nbsp; &nbsp; <a href="chenim" class="word size0">CHENIM</a> &nbsp; &nbsp; <a href="Chill" class="word size0">CHILL</a> &nbsp; &nbsp; <a href="Chinar" class="word size1">CHINAR</a> &nbsp; &nbsp; <a href="Chini" class="word size0">CHINI</a> &nbsp; &nbsp; <a href="Chiper" class="word size0">CHIPER</a> &nbsp; &nbsp; <a href="Chober" class="word size0">CHOBER</a> &nbsp; &nbsp; <a href="Chobir" class="word size0">CHOBIR</a> &nbsp; &nbsp; <a href="Chok charvan" class="word size0">CHOK CHARVAN</a> &nbsp; &nbsp; <a href="Chong" class="word size0">CHONG</a> &nbsp; &nbsp; <a href="Choonth" class="word size0">CHOONTH</a> &nbsp; &nbsp; <a href="Choonth Wangun" class="word size0">CHOONTH WANGUN</a> &nbsp; &nbsp; <a href="Choor" class="word size0">CHOOR</a> &nbsp; &nbsp; <a href="Chopaeyaer" class="word size0">CHOPAEYAER</a> &nbsp; &nbsp; <a href="Chor" class="word size1">CHOR</a> &nbsp; &nbsp; <a href="Chot" class="word size0">CHOT</a> &nbsp; &nbsp; <a href="Chuk" class="word size0">CHUK</a> &nbsp; &nbsp; <a href="Chuk Wangun" class="word size0">CHUK WANGUN</a> &nbsp; &nbsp; <a href="Convent School" class="word size1">CONVENT SCHOOL</a> &nbsp; &nbsp; <a href="Coonth" class="word size0">COONTH</a> &nbsp; &nbsp; <a href="Daan" class="word size0">DAAN</a> &nbsp; &nbsp; <a href="Daand" class="word size0">DAAND</a> &nbsp; &nbsp; <a href="Dab" class="word size0">DAB</a> &nbsp; &nbsp; <a href="Dachigam" class="word size0">DACHIGAM</a> &nbsp; &nbsp; <a href="Dachun" class="word size0">DACHUN</a> &nbsp; &nbsp; <a href="Daer" class="word size1">DAER</a> &nbsp; &nbsp; <a href="Dahg" class="word size0">DAHG</a> &nbsp; &nbsp; <a href="Dal Lake" class="word size0">DAL LAKE</a> &nbsp; &nbsp; <a href="dambur" class="word size0">DAMBUR</a> &nbsp; &nbsp; <a href="Dapaan" class="word size0">DAPAAN</a> &nbsp; &nbsp; <a href="Dapan" class="word size0">DAPAN</a> &nbsp; &nbsp; <a href="Daptam te pakaye" class="word size0">DAPTAM TE PAKAYE</a> &nbsp; &nbsp; <a href="Dar" class="word size0">DAR</a> &nbsp; &nbsp; <a href="Darwazeh" class="word size0">DARWAZEH</a> &nbsp; &nbsp; <a href="Daryav" class="word size0">DARYAV</a> &nbsp; &nbsp; <a href="Dasil" class="word size0">DASIL</a> &nbsp; &nbsp; <a href="Dastaar" class="word size0">DASTAAR</a> &nbsp; &nbsp; <a href="DAV School" class="word size0">DAV SCHOOL</a> &nbsp; &nbsp; <a href="Dazun" class="word size0">DAZUN</a> &nbsp; &nbsp; <a href="Ded" class="word size0">DED</a> &nbsp; &nbsp; <a href="Deedaar Karun" class="word size0">DEEDAAR KARUN</a> &nbsp; &nbsp; <a href="Deh" class="word size0">DEH</a> &nbsp; &nbsp; <a href="dejharoo" class="word size1">DEJHAROO</a> &nbsp; &nbsp; <a href="Dejhor" class="word size1">DEJHOR</a> &nbsp; &nbsp; <a href="Deodar" class="word size0">DEODAR</a> &nbsp; &nbsp; <a href="Devtah" class="word size0">DEVTAH</a> &nbsp; &nbsp; <a href="Dhaand" class="word size0">DHAAND</a> &nbsp; &nbsp; <a href="Dhar" class="word size0">DHAR</a> &nbsp; &nbsp; <a href="Doar" class="word size0">DOAR</a> &nbsp; &nbsp; <a href="Dod" class="word size1">DOD</a> &nbsp; &nbsp; <a href="Doh" class="word size1">DOH</a> &nbsp; &nbsp; <a href="Doon" class="word size0">DOON</a> &nbsp; &nbsp; <a href="Draav" class="word size0">DRAAV</a> &nbsp; &nbsp; <a href="droug" class="word size0">DROUG</a> &nbsp; &nbsp; <a href="Duakhear" class="word size0">DUAKHEAR</a> &nbsp; &nbsp; <a href="DUL" class="word size0">DUL</a> &nbsp; &nbsp; <a href="Dumaloo" class="word size1">DUMALOO</a> &nbsp; &nbsp; <a href="Duniyah" class="word size0">DUNIYAH</a> &nbsp; &nbsp; <a href="Dyaed" class="word size0">DYAED</a> &nbsp; &nbsp; <a href="Dyakeh" class="word size0">DYAKEH</a> &nbsp; &nbsp; <a href="faetir" class="word size0">FAETIR</a> &nbsp; &nbsp; <a href="Fakh" class="word size1">FAKH</a> &nbsp; &nbsp; <a href="Farooq bhat" class="word size0">FAROOQ BHAT</a> &nbsp; &nbsp; <a href="Farooqbhat" class="word size0">FAROOQBHAT</a> &nbsp; &nbsp; <a href="Fateh Kadal" class="word size0">FATEH KADAL</a> &nbsp; &nbsp; <a href="Fatun" class="word size0">FATUN</a> &nbsp; &nbsp; <a href="finjaneh" class="word size0">FINJANEH</a> &nbsp; &nbsp; <a href="Frakh" class="word size0">FRAKH</a> &nbsp; &nbsp; <a href="Fras kul" class="word size0">FRAS KUL</a> &nbsp; &nbsp; <a href="Gaam" class="word size0">GAAM</a> &nbsp; &nbsp; <a href="Gaamuk" class="word size0">GAAMUK</a> &nbsp; &nbsp; <a href="Gaan" class="word size1">GAAN</a> &nbsp; &nbsp; <a href="Gaanth" class="word size0">GAANTH</a> &nbsp; &nbsp; <a href="Gaash" class="word size1">GAASH</a> &nbsp; &nbsp; <a href="Gaav" class="word size0">GAAV</a> &nbsp; &nbsp; <a href="Gaaw" class="word size0">GAAW</a> &nbsp; &nbsp; <a href="Gadeh" class="word size0">GADEH</a> &nbsp; &nbsp; <a href="Gadeh Batta" class="word size0">GADEH BATTA</a> &nbsp; &nbsp; <a href="Gagarai" class="word size0">GAGARAI</a> &nbsp; &nbsp; <a href="Gagir" class="word size0">GAGIR</a> &nbsp; &nbsp; <a href="Gagur" class="word size0">GAGUR</a> &nbsp; &nbsp; <a href="Gamuk" class="word size1">GAMUK</a> &nbsp; &nbsp; <a href="Ganda" class="word size1">GANDA</a> &nbsp; &nbsp; <a href="Ganda Bacha" class="word size0">GANDA BACHA</a> &nbsp; &nbsp; <a href="Gandakh Dabe" class="word size0">GANDAKH DABE</a> &nbsp; &nbsp; <a href="Gandakh Tuj" class="word size0">GANDAKH TUJ</a> &nbsp; &nbsp; <a href="Ganderbal" class="word size0">GANDERBAL</a> &nbsp; &nbsp; <a href="Gangbal" class="word size0">GANGBAL</a> &nbsp; &nbsp; <a href="Garam" class="word size0">GARAM</a> &nbsp; &nbsp; <a href="Garid" class="word size0">GARID</a> &nbsp; &nbsp; <a href="Gash" class="word size0">GASH</a> &nbsp; &nbsp; <a href="Gassih" class="word size0">GASSIH</a> &nbsp; &nbsp; <a href="gat zol" class="word size0">GAT ZOL</a> &nbsp; &nbsp; <a href="Gate zoul" class="word size1">GATE ZOUL</a> &nbsp; &nbsp; <a href="gateh  zole" class="word size0">GATEH  ZOLE</a> &nbsp; &nbsp; <a href="Gawon" class="word size0">GAWON</a> &nbsp; &nbsp; <a href="Geerun" class="word size0">GEERUN</a> &nbsp; &nbsp; <a href="ghev" class="word size0">GHEV</a> &nbsp; &nbsp; <a href="Gilas" class="word size0">GILAS</a> &nbsp; &nbsp; <a href="Gilaseh" class="word size0">GILASEH</a> &nbsp; &nbsp; <a href="Gindun" class="word size0">GINDUN</a> &nbsp; &nbsp; <a href="Girda" class="word size0">GIRDA</a> &nbsp; &nbsp; <a href="Goal" class="word size0">GOAL</a> &nbsp; &nbsp; <a href="Goed" class="word size0">GOED</a> &nbsp; &nbsp; <a href="Gogji" class="word size0">GOGJI</a> &nbsp; &nbsp; <a href="Gogjibagh" class="word size0">GOGJIBAGH</a> &nbsp; &nbsp; <a href="Goji patti" class="word size0">GOJI PATTI</a> &nbsp; &nbsp; <a href="Golaab" class="word size0">GOLAAB</a> &nbsp; &nbsp; <a href="Goole" class="word size0">GOOLE</a> &nbsp; &nbsp; <a href="Goor" class="word size0">GOOR</a> &nbsp; &nbsp; <a href="Goshtaba" class="word size0">GOSHTABA</a> &nbsp; &nbsp; <a href="Got" class="word size0">GOT</a> &nbsp; &nbsp; <a href="Goye khash kash" class="word size0">GOYE KHASH KASH</a> &nbsp; &nbsp; <a href="Grand" class="word size1">GRAND</a> &nbsp; &nbsp; <a href="Granznaavun" class="word size0">GRANZNAAVUN</a> &nbsp; &nbsp; <a href="Grateh" class="word size0">GRATEH</a> &nbsp; &nbsp; <a href="Gruhud" class="word size0">GRUHUD</a> &nbsp; &nbsp; <a href="Gruhun" class="word size0">GRUHUN</a> &nbsp; &nbsp; <a href="Gupan" class="word size0">GUPAN</a> &nbsp; &nbsp; <a href="gupun" class="word size0">GUPUN</a> &nbsp; &nbsp; <a href="Gushtaba" class="word size0">GUSHTABA</a> &nbsp; &nbsp; <a href="Gyavun" class="word size0">GYAVUN</a> &nbsp; &nbsp; <a href="Gyod kaden" class="word size0">GYOD KADEN</a> &nbsp; &nbsp; <a href="Haakh" class="word size1">HAAKH</a> &nbsp; &nbsp; <a href="Haaput" class="word size0">HAAPUT</a> &nbsp; &nbsp; <a href="Haarun" class="word size0">HAARUN</a> &nbsp; &nbsp; <a href="Haash" class="word size0">HAASH</a> &nbsp; &nbsp; <a href="Habakadal" class="word size0">HABAKADAL</a> &nbsp; &nbsp; <a href="Habba Khatoon" class="word size0">HABBA KHATOON</a> &nbsp; &nbsp; <a href="Habba Khatoun" class="word size0">HABBA KHATOUN</a> &nbsp; &nbsp; <a href="Haenkal" class="word size0">HAENKAL</a> &nbsp; &nbsp; <a href="Halwoy" class="word size0">HALWOY</a> &nbsp; &nbsp; <a href="Hanglou karyo shupie sieth wav" class="word size0">HANGLOU KARYO SHUPIE SIETH WAV</a> &nbsp; &nbsp; <a href="Hangul" class="word size0">HANGUL</a> &nbsp; &nbsp; <a href="Hanuman Mander" class="word size0">HANUMAN MANDER</a> &nbsp; &nbsp; <a href="Hapat Yaraz" class="word size0">HAPAT YARAZ</a> &nbsp; &nbsp; <a href="Haput" class="word size2">HAPUT</a> &nbsp; &nbsp; <a href="Hareh" class="word size0">HAREH</a> &nbsp; &nbsp; <a href="Hari Parbat" class="word size1">HARI PARBAT</a> &nbsp; &nbsp; <a href="HARISHORE" class="word size0">HARISHORE</a> &nbsp; &nbsp; <a href="harkar" class="word size1">HARKAR</a> &nbsp; &nbsp; <a href="Harkath" class="word size0">HARKATH</a> &nbsp; &nbsp; <a href="Harmukh" class="word size0">HARMUKH</a> &nbsp; &nbsp; <a href="Harud" class="word size0">HARUD</a> &nbsp; &nbsp; <a href="Harun" class="word size0">HARUN</a> &nbsp; &nbsp; <a href="Harwan" class="word size0">HARWAN</a> &nbsp; &nbsp; <a href="Haspatal" class="word size0">HASPATAL</a> &nbsp; &nbsp; <a href="Hatai wai" class="word size1">HATAI WAI</a> &nbsp; &nbsp; <a href="Hatakh" class="word size0">HATAKH</a> &nbsp; &nbsp; <a href="Hatay" class="word size0">HATAY</a> &nbsp; &nbsp; <a href="Hatay kyah goam" class="word size0">HATAY KYAH GOAM</a> &nbsp; &nbsp; <a href="Hath" class="word size1">HATH</a> &nbsp; &nbsp; <a href="Hawaleh" class="word size0">HAWALEH</a> &nbsp; &nbsp; <a href="Hazratbal" class="word size0">HAZRATBAL</a> &nbsp; &nbsp; <a href="Heemal ti Nagray" class="word size0">HEEMAL TI NAGRAY</a> &nbsp; &nbsp; <a href="Herath" class="word size0">HERATH</a> &nbsp; &nbsp; <a href="Herwan" class="word size0">HERWAN</a> &nbsp; &nbsp; <a href="Hochh" class="word size0">HOCHH</a> &nbsp; &nbsp; <a href="hogaad" class="word size0">HOGAAD</a> &nbsp; &nbsp; <a href="Hogaad bum" class="word size0">HOGAAD BUM</a> &nbsp; &nbsp; <a href="Hogad" class="word size0">HOGAD</a> &nbsp; &nbsp; <a href="Hokh Syun" class="word size0">HOKH SYUN</a> &nbsp; &nbsp; <a href="Hokhaymuth chukh" class="word size0">HOKHAYMUTH CHUKH</a> &nbsp; &nbsp; <a href="Hongyaen" class="word size0">HONGYAEN</a> &nbsp; &nbsp; <a href="Hoon" class="word size1">HOON</a> &nbsp; &nbsp; <a href="hoone loot" class="word size0">HOONE LOOT</a> &nbsp; &nbsp; <a href="Hotmut" class="word size0">HOTMUT</a> &nbsp; &nbsp; <a href="Hoīn Adij" class="word size0">HOīN ADIJ</a> &nbsp; &nbsp; <a href="Hundur" class="word size0">HUNDUR</a> &nbsp; &nbsp; <a href="Hyaer" class="word size0">HYAER</a> &nbsp; &nbsp; <a href="Hyakath" class="word size0">HYAKATH</a> &nbsp; &nbsp; <a href="Hyamath" class="word size0">HYAMATH</a> &nbsp; &nbsp; <a href="Hyandbyend" class="word size0">HYANDBYEND</a> &nbsp; &nbsp; <a href="Hyatyun" class="word size0">HYATYUN</a> &nbsp; &nbsp; <a href="Hyeng" class="word size0">HYENG</a> &nbsp; &nbsp; <a href="Hyor" class="word size0">HYOR</a> &nbsp; &nbsp; <a href="Hyor nai pilai, zangay zilay" class="word size2">HYOR NAI PILAI, ZANGAY ZILAY</a> &nbsp; &nbsp; <a href="Hyuhur" class="word size0">HYUHUR</a> &nbsp; &nbsp; <a href="Hyush" class="word size0">HYUSH</a> &nbsp; &nbsp; <a href="Jaan" class="word size0">JAAN</a> &nbsp; &nbsp; <a href="Jaanaan" class="word size0">JAANAAN</a> &nbsp; &nbsp; <a href="Jajeer" class="word size0">JAJEER</a> &nbsp; &nbsp; <a href="jan marg" class="word size0">JAN MARG</a> &nbsp; &nbsp; <a href="Jangur" class="word size0">JANGUR</a> &nbsp; &nbsp; <a href="January" class="word size0">JANUARY</a> &nbsp; &nbsp; <a href="Javani" class="word size0">JAVANI</a> &nbsp; &nbsp; <a href="Jawahar Nagar" class="word size0">JAWAHAR NAGAR</a> &nbsp; &nbsp; <a href="Jiger" class="word size0">JIGER</a> &nbsp; &nbsp; <a href="Jomm" class="word size0">JOMM</a> &nbsp; &nbsp; <a href="kahwa" class="word size0">KAHWA</a> &nbsp; &nbsp; <a href="Kailh" class="word size0">KAILH</a> &nbsp; &nbsp; <a href="Kajwath" class="word size0">KAJWATH</a> &nbsp; &nbsp; <a href="Kal" class="word size0">KAL</a> &nbsp; &nbsp; <a href="Kal doad" class="word size0">KAL DOAD</a> &nbsp; &nbsp; <a href="Kalam" class="word size0">KALAM</a> &nbsp; &nbsp; <a href="kaldod" class="word size1">KALDOD</a> &nbsp; &nbsp; <a href="kale doud" class="word size0">KALE DOUD</a> &nbsp; &nbsp; <a href="Kaleh khyotham" class="word size0">KALEH KHYOTHAM</a> &nbsp; &nbsp; <a href="Kali" class="word size0">KALI</a> &nbsp; &nbsp; <a href="Kaliyah" class="word size0">KALIYAH</a> &nbsp; &nbsp; <a href="Kalkharaab" class="word size1">KALKHARAAB</a> &nbsp; &nbsp; <a href="kalle" class="word size0">KALLE</a> &nbsp; &nbsp; <a href="Kamzor" class="word size0">KAMZOR</a> &nbsp; &nbsp; <a href="Kandur" class="word size0">KANDUR</a> &nbsp; &nbsp; <a href="Kanger" class="word size1">KANGER</a> &nbsp; &nbsp; <a href="Kangir" class="word size0">KANGIR</a> &nbsp; &nbsp; <a href="Kangri" class="word size0">KANGRI</a> &nbsp; &nbsp; <a href="kapar  zoveh" class="word size0">KAPAR  ZOVEH</a> &nbsp; &nbsp; <a href="Karan Nagar" class="word size0">KARAN NAGAR</a> &nbsp; &nbsp; <a href="Karyin" class="word size0">KARYIN</a> &nbsp; &nbsp; <a href="Kasheer" class="word size0">KASHEER</a> &nbsp; &nbsp; <a href="Kashtawar" class="word size0">KASHTAWAR</a> &nbsp; &nbsp; <a href="Kashur" class="word size0">KASHUR</a> &nbsp; &nbsp; <a href="Kashur Mashur" class="word size0">KASHUR MASHUR</a> &nbsp; &nbsp; <a href="Kashyap" class="word size0">KASHYAP</a> &nbsp; &nbsp; <a href="Kasibh" class="word size0">KASIBH</a> &nbsp; &nbsp; <a href="Katel" class="word size0">KATEL</a> &nbsp; &nbsp; <a href="Katlam" class="word size0">KATLAM</a> &nbsp; &nbsp; <a href="Kaw" class="word size0">KAW</a> &nbsp; &nbsp; <a href="Kesim" class="word size0">KESIM</a> &nbsp; &nbsp; <a href="Khabar" class="word size0">KHABAR</a> &nbsp; &nbsp; <a href="Khabri Khouch" class="word size0">KHABRI KHOUCH</a> &nbsp; &nbsp; <a href="Khaeli wether" class="word size0">KHAELI WETHER</a> &nbsp; &nbsp; <a href="Khalan" class="word size0">KHALAN</a> &nbsp; &nbsp; <a href="Khalkharaab" class="word size0">KHALKHARAAB</a> &nbsp; &nbsp; <a href="Khandaar" class="word size1">KHANDAAR</a> &nbsp; &nbsp; <a href="Khandar" class="word size0">KHANDAR</a> &nbsp; &nbsp; <a href="Khander" class="word size1">KHANDER</a> &nbsp; &nbsp; <a href="Khanmoj kur" class="word size0">KHANMOJ KUR</a> &nbsp; &nbsp; <a href="Khar" class="word size0">KHAR</a> &nbsp; &nbsp; <a href="Khare" class="word size0">KHARE</a> &nbsp; &nbsp; <a href="Khashir pajamas manz zung sinan" class="word size0">KHASHIR PAJAMAS MANZ ZUNG SINAN</a> &nbsp; &nbsp; <a href="Khatarnakh" class="word size0">KHATARNAKH</a> &nbsp; &nbsp; <a href="Khe" class="word size0">KHE</a> &nbsp; &nbsp; <a href="Khin" class="word size0">KHIN</a> &nbsp; &nbsp; <a href="Khoas" class="word size0">KHOAS</a> &nbsp; &nbsp; <a href="Khochun" class="word size0">KHOCHUN</a> &nbsp; &nbsp; <a href="Khohvur" class="word size0">KHOHVUR</a> &nbsp; &nbsp; <a href="Khor" class="word size1">KHOR</a> &nbsp; &nbsp; <a href="khoshik" class="word size0">KHOSHIK</a> &nbsp; &nbsp; <a href="Khoshkyeth" class="word size0">KHOSHKYETH</a> &nbsp; &nbsp; <a href="Khotmut" class="word size0">KHOTMUT</a> &nbsp; &nbsp; <a href="khour" class="word size1">KHOUR</a> &nbsp; &nbsp; <a href="khrav   hore" class="word size2">KHRAV   HORE</a> &nbsp; &nbsp; <a href="Khyin" class="word size0">KHYIN</a> &nbsp; &nbsp; <a href="Khyon" class="word size0">KHYON</a> &nbsp; &nbsp; <a href="Koang" class="word size1">KOANG</a> &nbsp; &nbsp; <a href="Kokar" class="word size0">KOKAR</a> &nbsp; &nbsp; <a href="Koker" class="word size1">KOKER</a> &nbsp; &nbsp; <a href="Koker poot" class="word size1">KOKER POOT</a> &nbsp; &nbsp; <a href="Kokur" class="word size0">KOKUR</a> &nbsp; &nbsp; <a href="Kolohai" class="word size0">KOLOHAI</a> &nbsp; &nbsp; <a href="Koon" class="word size0">KOON</a> &nbsp; &nbsp; <a href="Koor" class="word size0">KOOR</a> &nbsp; &nbsp; <a href="Koshur" class="word size0">KOSHUR</a> &nbsp; &nbsp; <a href="Koth" class="word size0">KOTH</a> &nbsp; &nbsp; <a href="Kotur" class="word size0">KOTUR</a> &nbsp; &nbsp; <a href="Kout" class="word size0">KOUT</a> &nbsp; &nbsp; <a href="Krakh" class="word size0">KRAKH</a> &nbsp; &nbsp; <a href="Kreand" class="word size0">KREAND</a> &nbsp; &nbsp; <a href="kripen" class="word size0">KRIPEN</a> &nbsp; &nbsp; <a href="KRISHNASAR" class="word size0">KRISHNASAR</a> &nbsp; &nbsp; <a href="Kruhun" class="word size0">KRUHUN</a> &nbsp; &nbsp; <a href="Kuind" class="word size0">KUIND</a> &nbsp; &nbsp; <a href="Kul" class="word size0">KUL</a> &nbsp; &nbsp; <a href="Kulya kyamyu phutnovnakh - paneni myavan" class="word size0">KULYA KYAMYU PHUTNOVNAKH - PANENI MYAVAN</a> &nbsp; &nbsp; <a href="Kunear" class="word size0">KUNEAR</a> &nbsp; &nbsp; <a href="kunzeh   trout" class="word size0">KUNZEH   TROUT</a> &nbsp; &nbsp; <a href="Kyanih Phol" class="word size0">KYANIH PHOL</a> &nbsp; &nbsp; <a href="Kyen" class="word size0">KYEN</a> &nbsp; &nbsp; <a href="Kyoeth" class="word size0">KYOETH</a> &nbsp; &nbsp; <a href="Kyom" class="word size0">KYOM</a> &nbsp; &nbsp; <a href="Kyut" class="word size0">KYUT</a> &nbsp; &nbsp; <a href="Laad" class="word size0">LAAD</a> &nbsp; &nbsp; <a href="Laal" class="word size0">LAAL</a> &nbsp; &nbsp; <a href="Laanat" class="word size0">LAANAT</a> &nbsp; &nbsp; <a href="Labaan" class="word size0">LABAAN</a> &nbsp; &nbsp; <a href="Labh" class="word size0">LABH</a> &nbsp; &nbsp; <a href="Ladnav" class="word size0">LADNAV</a> &nbsp; &nbsp; <a href="ladur" class="word size1">LADUR</a> &nbsp; &nbsp; <a href="Laer" class="word size0">LAER</a> &nbsp; &nbsp; <a href="Laet" class="word size0">LAET</a> &nbsp; &nbsp; <a href="Lagay Balayi" class="word size0">LAGAY BALAYI</a> &nbsp; &nbsp; <a href="lahvun" class="word size0">LAHVUN</a> &nbsp; &nbsp; <a href="Lal" class="word size1">LAL</a> &nbsp; &nbsp; <a href="Lal Chowk" class="word size0">LAL CHOWK</a> &nbsp; &nbsp; <a href="lal ded" class="word size0">LAL DED</a> &nbsp; &nbsp; <a href="Lal Ded Hospital" class="word size0">LAL DED HOSPITAL</a> &nbsp; &nbsp; <a href="lala argame bandipora" class="word size0">LALA ARGAME BANDIPORA</a> &nbsp; &nbsp; <a href="Lalmut lai" class="word size1">LALMUT LAI</a> &nbsp; &nbsp; <a href="Lanath" class="word size0">LANATH</a> &nbsp; &nbsp; <a href="Larun" class="word size0">LARUN</a> &nbsp; &nbsp; <a href="lashi   kon" class="word size0">LASHI   KON</a> &nbsp; &nbsp; <a href="lassiv" class="word size1">LASSIV</a> &nbsp; &nbsp; <a href="Lastam ti labniye khastam" class="word size0">LASTAM TI LABNIYE KHASTAM</a> &nbsp; &nbsp; <a href="Lasun" class="word size0">LASUN</a> &nbsp; &nbsp; <a href="Lath" class="word size0">LATH</a> &nbsp; &nbsp; <a href="Lavasa" class="word size0">LAVASA</a> &nbsp; &nbsp; <a href="Lett tulith gaeb" class="word size0">LETT TULITH GAEB</a> &nbsp; &nbsp; <a href="Liath" class="word size0">LIATH</a> &nbsp; &nbsp; <a href="Lithnavun" class="word size0">LITHNAVUN</a> &nbsp; &nbsp; <a href="Livun" class="word size0">LIVUN</a> &nbsp; &nbsp; <a href="Lol" class="word size0">LOL</a> &nbsp; &nbsp; <a href="lolar" class="word size0">LOLAR</a> &nbsp; &nbsp; <a href="lolar lolariye" class="word size0">LOLAR LOLARIYE</a> &nbsp; &nbsp; <a href="Lolmut Laey" class="word size0">LOLMUT LAEY</a> &nbsp; &nbsp; <a href="lone" class="word size0">LONE</a> &nbsp; &nbsp; <a href="Lookh" class="word size0">LOOKH</a> &nbsp; &nbsp; <a href="Lyadir" class="word size0">LYADIR</a> &nbsp; &nbsp; <a href="Lyadur" class="word size0">LYADUR</a> &nbsp; &nbsp; <a href="Lyej" class="word size0">LYEJ</a> &nbsp; &nbsp; <a href="Lyekh" class="word size0">LYEKH</a> &nbsp; &nbsp; <a href="maay" class="word size0">MAAY</a> &nbsp; &nbsp; <a href="Machar Wangun" class="word size0">MACHAR WANGUN</a> &nbsp; &nbsp; <a href="Machh" class="word size0">MACHH</a> &nbsp; &nbsp; <a href="Madraer" class="word size0">MADRAER</a> &nbsp; &nbsp; <a href="Madur" class="word size1">MADUR</a> &nbsp; &nbsp; <a href="Maej" class="word size1">MAEJ</a> &nbsp; &nbsp; <a href="Magiz" class="word size0">MAGIZ</a> &nbsp; &nbsp; <a href="Mahadev" class="word size0">MAHADEV</a> &nbsp; &nbsp; <a href="Maharaz" class="word size0">MAHARAZ</a> &nbsp; &nbsp; <a href="Mahraaz" class="word size0">MAHRAAZ</a> &nbsp; &nbsp; <a href="Mahren" class="word size0">MAHREN</a> &nbsp; &nbsp; <a href="Maisum" class="word size0">MAISUM</a> &nbsp; &nbsp; <a href="Makai" class="word size0">MAKAI</a> &nbsp; &nbsp; <a href="makai kashur" class="word size0">MAKAI KASHUR</a> &nbsp; &nbsp; <a href="Makai Waet" class="word size0">MAKAI WAET</a> &nbsp; &nbsp; <a href="Makaneh" class="word size0">MAKANEH</a> &nbsp; &nbsp; <a href="Makur" class="word size0">MAKUR</a> &nbsp; &nbsp; <a href="Malai" class="word size0">MALAI</a> &nbsp; &nbsp; <a href="Malalah" class="word size0">MALALAH</a> &nbsp; &nbsp; <a href="Mallinson School" class="word size0">MALLINSON SCHOOL</a> &nbsp; &nbsp; <a href="mandinan   shyam" class="word size0">MANDINAN   SHYAM</a> &nbsp; &nbsp; <a href="manjh" class="word size0">MANJH</a> &nbsp; &nbsp; <a href="manz  athas  maanzi  char" class="word size0">MANZ  ATHAS  MAANZI  CHAR</a> &nbsp; &nbsp; <a href="Manzimyor" class="word size1">MANZIMYOR</a> &nbsp; &nbsp; <a href="Mar Pech" class="word size0">MAR PECH</a> &nbsp; &nbsp; <a href="Marchi Wangun" class="word size0">MARCHI WANGUN</a> &nbsp; &nbsp; <a href="Marchwangun" class="word size1">MARCHWANGUN</a> &nbsp; &nbsp; <a href="Mardeh payjaman chukh zung divan" class="word size0">MARDEH PAYJAMAN CHUKH ZUNG DIVAN</a> &nbsp; &nbsp; <a href="Marech" class="word size1">MARECH</a> &nbsp; &nbsp; <a href="Mared" class="word size0">MARED</a> &nbsp; &nbsp; <a href="Mashikh" class="word size0">MASHIKH</a> &nbsp; &nbsp; <a href="mazdaar" class="word size0">MAZDAAR</a> &nbsp; &nbsp; <a href="Mazoor" class="word size0">MAZOOR</a> &nbsp; &nbsp; <a href="memer" class="word size0">MEMER</a> &nbsp; &nbsp; <a href="Menga" class="word size0">MENGA</a> &nbsp; &nbsp; <a href="Mietre mecchh" class="word size0">MIETRE MECCHH</a> &nbsp; &nbsp; <a href="Mishul" class="word size0">MISHUL</a> &nbsp; &nbsp; <a href="Miyakut" class="word size1">MIYAKUT</a> &nbsp; &nbsp; <a href="moaj" class="word size1">MOAJ</a> &nbsp; &nbsp; <a href="Moal" class="word size0">MOAL</a> &nbsp; &nbsp; <a href="Modmut" class="word size0">MODMUT</a> &nbsp; &nbsp; <a href="monj" class="word size0">MONJ</a> &nbsp; &nbsp; <a href="Monji" class="word size0">MONJI</a> &nbsp; &nbsp; <a href="Monyh" class="word size0">MONYH</a> &nbsp; &nbsp; <a href="Mooj" class="word size0">MOOJ</a> &nbsp; &nbsp; <a href="Mot" class="word size0">MOT</a> &nbsp; &nbsp; <a href="muhul" class="word size0">MUHUL</a> &nbsp; &nbsp; <a href="Muj" class="word size0">MUJ</a> &nbsp; &nbsp; <a href="Mujadalai" class="word size0">MUJADALAI</a> &nbsp; &nbsp; <a href="Mush" class="word size0">MUSH</a> &nbsp; &nbsp; <a href="Mushikh" class="word size1">MUSHIKH</a> &nbsp; &nbsp; <a href="Myakath" class="word size0">MYAKATH</a> &nbsp; &nbsp; <a href="Mye kyah bi chu Heart" class="word size0">MYE KYAH BI CHU HEART</a> &nbsp; &nbsp; <a href="Myekaraz" class="word size1">MYEKARAZ</a> &nbsp; &nbsp; <a href="Myengi Dag" class="word size0">MYENGI DAG</a> &nbsp; &nbsp; <a href="myon marun chui" class="word size0">MYON MARUN CHUI</a> &nbsp; &nbsp; <a href="Myon Marun Chuy" class="word size0">MYON MARUN CHUY</a> &nbsp; &nbsp; <a href="Naale-secchan" class="word size0">NAALE-SECCHAN</a> &nbsp; &nbsp; <a href="Naar" class="word size1">NAAR</a> &nbsp; &nbsp; <a href="NAAR DEMAIY DARETH" class="word size0">NAAR DEMAIY DARETH</a> &nbsp; &nbsp; <a href="Naav" class="word size0">NAAV</a> &nbsp; &nbsp; <a href="Nab" class="word size0">NAB</a> &nbsp; &nbsp; <a href="Nabozun chuy gomut" class="word size0">NABOZUN CHUY GOMUT</a> &nbsp; &nbsp; <a href="Nadur" class="word size0">NADUR</a> &nbsp; &nbsp; <a href="nadur monj" class="word size0">NADUR MONJ</a> &nbsp; &nbsp; <a href="Naer" class="word size0">NAER</a> &nbsp; &nbsp; <a href="Naeyn" class="word size0">NAEYN</a> &nbsp; &nbsp; <a href="Nafar" class="word size0">NAFAR</a> &nbsp; &nbsp; <a href="Nageen" class="word size0">NAGEEN</a> &nbsp; &nbsp; <a href="Nai" class="word size0">NAI</a> &nbsp; &nbsp; <a href="Nakareh" class="word size0">NAKAREH</a> &nbsp; &nbsp; <a href="Nakvor" class="word size0">NAKVOR</a> &nbsp; &nbsp; <a href="Nalehmot" class="word size0">NALEHMOT</a> &nbsp; &nbsp; <a href="Nam" class="word size0">NAM</a> &nbsp; &nbsp; <a href="Nam Namath" class="word size0">NAM NAMATH</a> &nbsp; &nbsp; <a href="Nangeh" class="word size0">NANGEH</a> &nbsp; &nbsp; <a href="Naram" class="word size0">NARAM</a> &nbsp; &nbsp; <a href="nare" class="word size0">NARE</a> &nbsp; &nbsp; <a href="Nas" class="word size0">NAS</a> &nbsp; &nbsp; <a href="Nasir" class="word size0">NASIR</a> &nbsp; &nbsp; <a href="National School" class="word size0">NATIONAL SCHOOL</a> &nbsp; &nbsp; <a href="navun te phalun" class="word size0">NAVUN TE PHALUN</a> &nbsp; &nbsp; <a href="nebah  trath" class="word size0">NEBAH  TRATH</a> &nbsp; &nbsp; <a href="nebra dopnam andar atchun" class="word size0">NEBRA DOPNAM ANDAR ATCHUN</a> &nbsp; &nbsp; <a href="Neel" class="word size0">NEEL</a> &nbsp; &nbsp; <a href="Nehru Park" class="word size0">NEHRU PARK</a> &nbsp; &nbsp; <a href="nengroo" class="word size2">NENGROO</a> &nbsp; &nbsp; <a href="Ner" class="word size0">NER</a> &nbsp; &nbsp; <a href="News" class="word size6">NEWS</a> &nbsp; &nbsp; <a href="Nishat bagh" class="word size0">NISHAT BAGH</a> &nbsp; &nbsp; <a href="Noat" class="word size0">NOAT</a> &nbsp; &nbsp; <a href="Noon" class="word size0">NOON</a> &nbsp; &nbsp; <a href="NRK (Non Resident kashmiri)" class="word size0">NRK (NON RESIDENT KASHMIRI)</a> &nbsp; &nbsp; <a href="Nyabaer" class="word size0">NYABAER</a> &nbsp; &nbsp; <a href="Nyabar" class="word size0">NYABAR</a> &nbsp; &nbsp; <a href="Nyaerun" class="word size0">NYAERUN</a> &nbsp; &nbsp; <a href="Nyandir" class="word size0">NYANDIR</a> &nbsp; &nbsp; <a href="Nyethir" class="word size0">NYETHIR</a> &nbsp; &nbsp; <a href="Nyosh" class="word size0">NYOSH</a> &nbsp; &nbsp; <a href="Nyoth" class="word size0">NYOTH</a> &nbsp; &nbsp; <a href="Nyuk" class="word size1">NYUK</a> &nbsp; &nbsp; <a href="Nyul" class="word size0">NYUL</a> &nbsp; &nbsp; <a href="Oat" class="word size0">OAT</a> &nbsp; &nbsp; <a href="Obur" class="word size0">OBUR</a> &nbsp; &nbsp; <a href="Obuyj" class="word size0">OBUYJ</a> &nbsp; &nbsp; <a href="Om dod" class="word size1">OM DOD</a> &nbsp; &nbsp; <a href="Onguj" class="word size0">ONGUJ</a> &nbsp; &nbsp; <a href="Ooluv" class="word size0">OOLUV</a> &nbsp; &nbsp; <a href="Oon" class="word size0">OON</a> &nbsp; &nbsp; <a href="Oubur" class="word size0">OUBUR</a> &nbsp; &nbsp; <a href="Oush" class="word size0">OUSH</a> &nbsp; &nbsp; <a href="Paan" class="word size0">PAAN</a> &nbsp; &nbsp; <a href="Paethir" class="word size0">PAETHIR</a> &nbsp; &nbsp; <a href="Pahaad" class="word size0">PAHAAD</a> &nbsp; &nbsp; <a href="Pakh" class="word size0">PAKH</a> &nbsp; &nbsp; <a href="Pakhe" class="word size0">PAKHE</a> &nbsp; &nbsp; <a href="Pakun" class="word size0">PAKUN</a> &nbsp; &nbsp; <a href="Palav" class="word size0">PALAV</a> &nbsp; &nbsp; <a href="Palne" class="word size0">PALNE</a> &nbsp; &nbsp; <a href="pamposh" class="word size0">PAMPOSH</a> &nbsp; &nbsp; <a href="Panchah" class="word size0">PANCHAH</a> &nbsp; &nbsp; <a href="Panun" class="word size0">PANUN</a> &nbsp; &nbsp; <a href="Parbath" class="word size0">PARBATH</a> &nbsp; &nbsp; <a href="Parimahal" class="word size0">PARIMAHAL</a> &nbsp; &nbsp; <a href="Path Kaalih" class="word size0">PATH KAALIH</a> &nbsp; &nbsp; <a href="Pather" class="word size1">PATHER</a> &nbsp; &nbsp; <a href="Pavun" class="word size0">PAVUN</a> &nbsp; &nbsp; <a href="Phati Wangun" class="word size0">PHATI WANGUN</a> &nbsp; &nbsp; <a href="Phatwan waad" class="word size0">PHATWAN WAAD</a> &nbsp; &nbsp; <a href="Pher" class="word size0">PHER</a> &nbsp; &nbsp; <a href="Pheraan" class="word size0">PHERAAN</a> &nbsp; &nbsp; <a href="Pheran" class="word size0">PHERAN</a> &nbsp; &nbsp; <a href="PIA Tawan" class="word size2">PIA TAWAN</a> &nbsp; &nbsp; <a href="Pilyam natai chekye gayem" class="word size0">PILYAM NATAI CHEKYE GAYEM</a> &nbsp; &nbsp; <a href="Poar" class="word size1">POAR</a> &nbsp; &nbsp; <a href="Pond" class="word size0">POND</a> &nbsp; &nbsp; <a href="Ponyh" class="word size0">PONYH</a> &nbsp; &nbsp; <a href="ponz" class="word size0">PONZ</a> &nbsp; &nbsp; <a href="Poonz" class="word size0">POONZ</a> &nbsp; &nbsp; <a href="Poosh" class="word size0">POOSH</a> &nbsp; &nbsp; <a href="Pooshmal" class="word size0">POOSHMAL</a> &nbsp; &nbsp; <a href="Poozh" class="word size0">POOZH</a> &nbsp; &nbsp; <a href="Posh" class="word size0">POSH</a> &nbsp; &nbsp; <a href="Pot Phaerun" class="word size0">POT PHAERUN</a> &nbsp; &nbsp; <a href="POUHAT" class="word size1">POUHAT</a> &nbsp; &nbsp; <a href="Pragaash" class="word size0">PRAGAASH</a> &nbsp; &nbsp; <a href="pragav" class="word size1">PRAGAV</a> &nbsp; &nbsp; <a href="Prakhuth" class="word size0">PRAKHUTH</a> &nbsp; &nbsp; <a href="praraan" class="word size0">PRARAAN</a> &nbsp; &nbsp; <a href="Prepyun" class="word size0">PREPYUN</a> &nbsp; &nbsp; <a href="preth" class="word size0">PRETH</a> &nbsp; &nbsp; <a href="Puj" class="word size0">PUJ</a> &nbsp; &nbsp; <a href="pulhoor" class="word size0">PULHOOR</a> &nbsp; &nbsp; <a href="Pulhor" class="word size0">PULHOR</a> &nbsp; &nbsp; <a href="Pun" class="word size0">PUN</a> &nbsp; &nbsp; <a href="pyaraan" class="word size0">PYARAAN</a> &nbsp; &nbsp; <a href="Pyater" class="word size0">PYATER</a> &nbsp; &nbsp; <a href="Pyath" class="word size0">PYATH</a> &nbsp; &nbsp; <a href="Pyutur" class="word size0">PYUTUR</a> &nbsp; &nbsp; <a href="Raat Mogul" class="word size0">RAAT MOGUL</a> &nbsp; &nbsp; <a href="Raath" class="word size1">RAATH</a> &nbsp; &nbsp; <a href="Raath Mogul" class="word size0">RAATH MOGUL</a> &nbsp; &nbsp; <a href="Raatmogul" class="word size0">RAATMOGUL</a> &nbsp; &nbsp; <a href="Rainawari" class="word size0">RAINAWARI</a> &nbsp; &nbsp; <a href="Raj Bagh" class="word size0">RAJ BAGH</a> &nbsp; &nbsp; <a href="Rajguru" class="word size0">RAJGURU</a> &nbsp; &nbsp; <a href="Rakhus" class="word size1">RAKHUS</a> &nbsp; &nbsp; <a href="Rasul Mir" class="word size0">RASUL MIR</a> &nbsp; &nbsp; <a href="Rateh Mogul" class="word size0">RATEH MOGUL</a> &nbsp; &nbsp; <a href="Ravmech" class="word size2">RAVMECH</a> &nbsp; &nbsp; <a href="Ravun" class="word size0">RAVUN</a> &nbsp; &nbsp; <a href="Rawalpora" class="word size0">RAWALPORA</a> &nbsp; &nbsp; <a href="Razmah" class="word size0">RAZMAH</a> &nbsp; &nbsp; <a href="Rista" class="word size0">RISTA</a> &nbsp; &nbsp; <a href="roganjosh" class="word size1">ROGANJOSH</a> &nbsp; &nbsp; <a href="Rood" class="word size0">ROOD</a> &nbsp; &nbsp; <a href="Roth" class="word size0">ROTH</a> &nbsp; &nbsp; <a href="Rovmuth" class="word size0">ROVMUTH</a> &nbsp; &nbsp; <a href="Ryatkol" class="word size0">RYATKOL</a> &nbsp; &nbsp; <a href="Saas" class="word size0">SAAS</a> &nbsp; &nbsp; <a href="Sabez" class="word size0">SABEZ</a> &nbsp; &nbsp; <a href="Safakadal" class="word size0">SAFAKADAL</a> &nbsp; &nbsp; <a href="Safed" class="word size0">SAFED</a> &nbsp; &nbsp; <a href="Sahgul" class="word size0">SAHGUL</a> &nbsp; &nbsp; <a href="Sandya wakhith" class="word size0">SANDYA WAKHITH</a> &nbsp; &nbsp; <a href="Sangarmal" class="word size0">SANGARMAL</a> &nbsp; &nbsp; <a href="Sari sameyev eksi razyi lamevew" class="word size0">SARI SAMEYEV EKSI RAZYI LAMEVEW</a> &nbsp; &nbsp; <a href="SARISHORE" class="word size0">SARISHORE</a> &nbsp; &nbsp; <a href="Sarneyh" class="word size0">SARNEYH</a> &nbsp; &nbsp; <a href="Sartal" class="word size1">SARTAL</a> &nbsp; &nbsp; <a href="saunduhr" class="word size0">SAUNDUHR</a> &nbsp; &nbsp; <a href="Shaal" class="word size0">SHAAL</a> &nbsp; &nbsp; <a href="Shaam" class="word size0">SHAAM</a> &nbsp; &nbsp; <a href="Shaansh" class="word size0">SHAANSH</a> &nbsp; &nbsp; <a href="Shahmat" class="word size0">SHAHMAT</a> &nbsp; &nbsp; <a href="Shahmath" class="word size0">SHAHMATH</a> &nbsp; &nbsp; <a href="shahruk" class="word size0">SHAHRUK</a> &nbsp; &nbsp; <a href="Shakal" class="word size0">SHAKAL</a> &nbsp; &nbsp; <a href="Shalimar Bagh" class="word size0">SHALIMAR BAGH</a> &nbsp; &nbsp; <a href="Shanghun" class="word size0">SHANGHUN</a> &nbsp; &nbsp; <a href="Shankracharya" class="word size0">SHANKRACHARYA</a> &nbsp; &nbsp; <a href="Shansh" class="word size0">SHANSH</a> &nbsp; &nbsp; <a href="Shararath" class="word size0">SHARARATH</a> &nbsp; &nbsp; <a href="Sheen" class="word size0">SHEEN</a> &nbsp; &nbsp; <a href="Sheeseh" class="word size0">SHEESEH</a> &nbsp; &nbsp; <a href="Sheeshar Gaanth" class="word size0">SHEESHAR GAANTH</a> &nbsp; &nbsp; <a href="Sheeshar Ghaanth" class="word size0">SHEESHAR GHAANTH</a> &nbsp; &nbsp; <a href="Shehjar" class="word size0">SHEHJAR</a> &nbsp; &nbsp; <a href="Shejar" class="word size0">SHEJAR</a> &nbsp; &nbsp; <a href="Shikas" class="word size0">SHIKAS</a> &nbsp; &nbsp; <a href="Shikaslad" class="word size0">SHIKASLAD</a> &nbsp; &nbsp; <a href="Shirchai" class="word size0">SHIRCHAI</a> &nbsp; &nbsp; <a href="Shireen" class="word size1">SHIREEN</a> &nbsp; &nbsp; <a href="Shoar" class="word size0">SHOAR</a> &nbsp; &nbsp; <a href="Shonth" class="word size0">SHONTH</a> &nbsp; &nbsp; <a href="Shoob" class="word size0">SHOOB</a> &nbsp; &nbsp; <a href="Shoobe scit kher" class="word size0">SHOOBE SCIT KHER</a> &nbsp; &nbsp; <a href="shoosh" class="word size0">SHOOSH</a> &nbsp; &nbsp; <a href="Shoosh myon" class="word size0">SHOOSH MYON</a> &nbsp; &nbsp; <a href="Shrooch" class="word size0">SHROOCH</a> &nbsp; &nbsp; <a href="Shuhh" class="word size0">SHUHH</a> &nbsp; &nbsp; <a href="Shur" class="word size0">SHUR</a> &nbsp; &nbsp; <a href="Sichan" class="word size0">SICHAN</a> &nbsp; &nbsp; <a href="soan meeraas" class="word size0">SOAN MEERAAS</a> &nbsp; &nbsp; <a href="Sonth" class="word size0">SONTH</a> &nbsp; &nbsp; <a href="SONZAL" class="word size0">SONZAL</a> &nbsp; &nbsp; <a href="Soonth" class="word size0">SOONTH</a> &nbsp; &nbsp; <a href="Soor" class="word size0">SOOR</a> &nbsp; &nbsp; <a href="Soyeth" class="word size0">SOYETH</a> &nbsp; &nbsp; <a href="SP College" class="word size0">SP COLLEGE</a> &nbsp; &nbsp; <a href="Sranth" class="word size0">SRANTH</a> &nbsp; &nbsp; <a href="Srinagar" class="word size0">SRINAGAR</a> &nbsp; &nbsp; <a href="Syun" class="word size0">SYUN</a> &nbsp; &nbsp; <a href="Syun kyah chuv az" class="word size0">SYUN KYAH CHUV AZ</a> &nbsp; &nbsp; <a href="Taaph" class="word size2">TAAPH</a> &nbsp; &nbsp; <a href="Taas" class="word size0">TAAS</a> &nbsp; &nbsp; <a href="Tabakmaaz" class="word size0">TABAKMAAZ</a> &nbsp; &nbsp; <a href="Taenth" class="word size0">TAENTH</a> &nbsp; &nbsp; <a href="Tafreekh tultam" class="word size0">TAFREEKH TULTAM</a> &nbsp; &nbsp; <a href="Tai wai" class="word size0">TAI WAI</a> &nbsp; &nbsp; <a href="Tamasheh" class="word size0">TAMASHEH</a> &nbsp; &nbsp; <a href="Tamater" class="word size0">TAMATER</a> &nbsp; &nbsp; <a href="Tamblaan" class="word size0">TAMBLAAN</a> &nbsp; &nbsp; <a href="Tamul" class="word size0">TAMUL</a> &nbsp; &nbsp; <a href="Tapael" class="word size1">TAPAEL</a> &nbsp; &nbsp; <a href="Taraf" class="word size0">TARAF</a> &nbsp; &nbsp; <a href="Tarakh" class="word size0">TARAKH</a> &nbsp; &nbsp; <a href="Tarangah" class="word size0">TARANGAH</a> &nbsp; &nbsp; <a href="Tavan" class="word size0">TAVAN</a> &nbsp; &nbsp; <a href="Tavanzad" class="word size0">TAVANZAD</a> &nbsp; &nbsp; <a href="Tavanzud" class="word size0">TAVANZUD</a> &nbsp; &nbsp; <a href="Tche" class="word size0">TCHE</a> &nbsp; &nbsp; <a href="Teel" class="word size0">TEEL</a> &nbsp; &nbsp; <a href="Teer" class="word size0">TEER</a> &nbsp; &nbsp; <a href="Telvur" class="word size0">TELVUR</a> &nbsp; &nbsp; <a href="Tez" class="word size0">TEZ</a> &nbsp; &nbsp; <a href="Thaal" class="word size0">THAAL</a> &nbsp; &nbsp; <a href="Thandeh" class="word size0">THANDEH</a> &nbsp; &nbsp; <a href="Thapyare" class="word size0">THAPYARE</a> &nbsp; &nbsp; <a href="Thathri" class="word size0">THATHRI</a> &nbsp; &nbsp; <a href="The Chenab Times" class="word size0">THE CHENAB TIMES</a> &nbsp; &nbsp; <a href="Thod" class="word size0">THOD</a> &nbsp; &nbsp; <a href="Thodh" class="word size0">THODH</a> &nbsp; &nbsp; <a href="Tikeul" class="word size0">TIKEUL</a> &nbsp; &nbsp; <a href="to\'et byol" class="word size0">TO\'ET BYOL</a> &nbsp; &nbsp; <a href="Toet Byol" class="word size0">TOET BYOL</a> &nbsp; &nbsp; <a href="Toet yinder" class="word size0">TOET YINDER</a> &nbsp; &nbsp; <a href="Tooker" class="word size0">TOOKER</a> &nbsp; &nbsp; <a href="Tor" class="word size0">TOR</a> &nbsp; &nbsp; <a href="Tos ha ba tultam" class="word size0">TOS HA BA TULTAM</a> &nbsp; &nbsp; <a href="Toth" class="word size0">TOTH</a> &nbsp; &nbsp; <a href="Totmah" class="word size0">TOTMAH</a> &nbsp; &nbsp; <a href="Trakur" class="word size0">TRAKUR</a> &nbsp; &nbsp; <a href="tral" class="word size0">TRAL</a> &nbsp; &nbsp; <a href="Tratakuti" class="word size0">TRATAKUTI</a> &nbsp; &nbsp; <a href="Trath" class="word size9">TRATH</a> &nbsp; &nbsp; <a href="Travun" class="word size0">TRAVUN</a> &nbsp; &nbsp; <a href="Tre" class="word size0">TRE</a> &nbsp; &nbsp; <a href="Tresh" class="word size0">TRESH</a> &nbsp; &nbsp; <a href="Tsaai" class="word size0">TSAAI</a> &nbsp; &nbsp; <a href="Tulmul" class="word size0">TULMUL</a> &nbsp; &nbsp; <a href="Turun" class="word size0">TURUN</a> &nbsp; &nbsp; <a href="Vaatun" class="word size0">VAATUN</a> &nbsp; &nbsp; <a href="Vadun" class="word size0">VADUN</a> &nbsp; &nbsp; <a href="Vadvun" class="word size0">VADVUN</a> &nbsp; &nbsp; <a href="Vaguv" class="word size0">VAGUV</a> &nbsp; &nbsp; <a href="Vakh" class="word size0">VAKH</a> &nbsp; &nbsp; <a href="Valun" class="word size0">VALUN</a> &nbsp; &nbsp; <a href="Vandur" class="word size1">VANDUR</a> &nbsp; &nbsp; <a href="vangun" class="word size0">VANGUN</a> &nbsp; &nbsp; <a href="vanvun" class="word size0">VANVUN</a> &nbsp; &nbsp; <a href="Vapas" class="word size0">VAPAS</a> &nbsp; &nbsp; <a href="Var" class="word size0">VAR</a> &nbsp; &nbsp; <a href="Varimuth" class="word size0">VARIMUTH</a> &nbsp; &nbsp; <a href="Variyah" class="word size0">VARIYAH</a> &nbsp; &nbsp; <a href="Varmul" class="word size0">VARMUL</a> &nbsp; &nbsp; <a href="Vartaavun" class="word size0">VARTAAVUN</a> &nbsp; &nbsp; <a href="Vath" class="word size0">VATH</a> &nbsp; &nbsp; <a href="Vatul" class="word size0">VATUL</a> &nbsp; &nbsp; <a href="Vedaakh" class="word size0">VEDAAKH</a> &nbsp; &nbsp; <a href="Veer" class="word size0">VEER</a> &nbsp; &nbsp; <a href="virin" class="word size0">VIRIN</a> &nbsp; &nbsp; <a href="VISHNASAR" class="word size0">VISHNASAR</a> &nbsp; &nbsp; <a href="VISHNUPAD" class="word size0">VISHNUPAD</a> &nbsp; &nbsp; <a href="Voharwod" class="word size0">VOHARWOD</a> &nbsp; &nbsp; <a href="Voonth" class="word size0">VOONTH</a> &nbsp; &nbsp; <a href="Vopal Hakh" class="word size0">VOPAL HAKH</a> &nbsp; &nbsp; <a href="Vosteh Hakh" class="word size0">VOSTEH HAKH</a> &nbsp; &nbsp; <a href="vozul" class="word size0">VOZUL</a> &nbsp; &nbsp; <a href="Vuchun" class="word size0">VUCHUN</a> &nbsp; &nbsp; <a href="Vuzbal" class="word size0">VUZBAL</a> &nbsp; &nbsp; <a href="Vuzmal" class="word size0">VUZMAL</a> &nbsp; &nbsp; <a href="Vy" class="word size0">VY</a> &nbsp; &nbsp; <a href="Vyachar Naag" class="word size0">VYACHAR NAAG</a> &nbsp; &nbsp; <a href="Vyekhuth" class="word size0">VYEKHUTH</a> &nbsp; &nbsp; <a href="Vyeth" class="word size0">VYETH</a> &nbsp; &nbsp; <a href="Vyethravun" class="word size0">VYETHRAVUN</a> &nbsp; &nbsp; <a href="Vyugh" class="word size0">VYUGH</a> &nbsp; &nbsp; <a href="Waath" class="word size1">WAATH</a> &nbsp; &nbsp; <a href="Waatul" class="word size0">WAATUL</a> &nbsp; &nbsp; <a href="Waavigh" class="word size0">WAAVIGH</a> &nbsp; &nbsp; <a href="wadun" class="word size0">WADUN</a> &nbsp; &nbsp; <a href="wadwun" class="word size0">WADWUN</a> &nbsp; &nbsp; <a href="Waguv" class="word size0">WAGUV</a> &nbsp; &nbsp; <a href="Waii" class="word size0">WAII</a> &nbsp; &nbsp; <a href="Wakheth" class="word size0">WAKHETH</a> &nbsp; &nbsp; <a href="Wakhul" class="word size1">WAKHUL</a> &nbsp; &nbsp; <a href="Walinjye dyeedes rohanhi chyot" class="word size0">WALINJYE DYEEDES ROHANHI CHYOT</a> &nbsp; &nbsp; <a href="Wandeh" class="word size0">WANDEH</a> &nbsp; &nbsp; <a href="Wangun" class="word size1">WANGUN</a> &nbsp; &nbsp; <a href="Wanun" class="word size0">WANUN</a> &nbsp; &nbsp; <a href="Wanwun" class="word size2">WANWUN</a> &nbsp; &nbsp; <a href="Waray" class="word size0">WARAY</a> &nbsp; &nbsp; <a href="Waray chakh bi waray" class="word size0">WARAY CHAKH BI WARAY</a> &nbsp; &nbsp; <a href="Waray chuk" class="word size0">WARAY CHUK</a> &nbsp; &nbsp; <a href="Wareh Wareh Pakh" class="word size0">WAREH WAREH PAKH</a> &nbsp; &nbsp; <a href="Wariyah" class="word size0">WARIYAH</a> &nbsp; &nbsp; <a href="Wasta" class="word size0">WASTA</a> &nbsp; &nbsp; <a href="Wasun" class="word size1">WASUN</a> &nbsp; &nbsp; <a href="Wazul" class="word size1">WAZUL</a> &nbsp; &nbsp; <a href="wazwan" class="word size0">WAZWAN</a> &nbsp; &nbsp; <a href="Wohwoh" class="word size0">WOHWOH</a> &nbsp; &nbsp; <a href="Wohwun" class="word size0">WOHWUN</a> &nbsp; &nbsp; <a href="Woin" class="word size0">WOIN</a> &nbsp; &nbsp; <a href="Wokhe" class="word size0">WOKHE</a> &nbsp; &nbsp; <a href="Wokhul" class="word size0">WOKHUL</a> &nbsp; &nbsp; <a href="Wonh" class="word size0">WONH</a> &nbsp; &nbsp; <a href="Woonth" class="word size1">WOONTH</a> &nbsp; &nbsp; <a href="Woonun" class="word size0">WOONUN</a> &nbsp; &nbsp; <a href="Wozgyar" class="word size0">WOZGYAR</a> &nbsp; &nbsp; <a href="Wuth" class="word size0">WUTH</a> &nbsp; &nbsp; <a href="Wyoth" class="word size0">WYOTH</a> &nbsp; &nbsp; <a href="Yaad" class="word size0">YAAD</a> &nbsp; &nbsp; <a href="Yakhni" class="word size1">YAKHNI</a> &nbsp; &nbsp; <a href="Yalath" class="word size0">YALATH</a> &nbsp; &nbsp; <a href="Yamberzal" class="word size0">YAMBERZAL</a> &nbsp; &nbsp; <a href="Yandir" class="word size0">YANDIR</a> &nbsp; &nbsp; <a href="yari changur" class="word size0">YARI CHANGUR</a> &nbsp; &nbsp; <a href="YEMSAR" class="word size0">YEMSAR</a> &nbsp; &nbsp; <a href="Yerevan Naav Cheervun Dhol" class="word size0">YEREVAN NAAV CHEERVUN DHOL</a> &nbsp; &nbsp; <a href="Yinder" class="word size0">YINDER</a> &nbsp; &nbsp; <a href="Yirven Naav Gachin" class="word size0">YIRVEN NAAV GACHIN</a> &nbsp; &nbsp; <a href="Yurvinnaav" class="word size0">YURVINNAAV</a> &nbsp; &nbsp; <a href="Zaal" class="word size0">ZAAL</a> &nbsp; &nbsp; <a href="Zaam" class="word size0">ZAAM</a> &nbsp; &nbsp; <a href="Zaamtur" class="word size0">ZAAMTUR</a> &nbsp; &nbsp; <a href="Zaamut doud" class="word size0">ZAAMUT DOUD</a> &nbsp; &nbsp; <a href="Zaan" class="word size0">ZAAN</a> &nbsp; &nbsp; <a href="Zaar" class="word size0">ZAAR</a> &nbsp; &nbsp; <a href="Zahar" class="word size0">ZAHAR</a> &nbsp; &nbsp; <a href="Zainakadal" class="word size0">ZAINAKADAL</a> &nbsp; &nbsp; <a href="Zaindar Mohalla" class="word size0">ZAINDAR MOHALLA</a> &nbsp; &nbsp; <a href="zal gur" class="word size0">ZAL GUR</a> &nbsp; &nbsp; <a href="Zalgur" class="word size0">ZALGUR</a> &nbsp; &nbsp; <a href="Zalun" class="word size0">ZALUN</a> &nbsp; &nbsp; <a href="Zamud dod" class="word size0">ZAMUD DOD</a> &nbsp; &nbsp; <a href="Zananeh" class="word size0">ZANANEH</a> &nbsp; &nbsp; <a href="Zang" class="word size1">ZANG</a> &nbsp; &nbsp; <a href="Ze" class="word size0">ZE</a> &nbsp; &nbsp; <a href="Zeethyaer" class="word size0">ZEETHYAER</a> &nbsp; &nbsp; <a href="Zero Bridge" class="word size0">ZERO BRIDGE</a> &nbsp; &nbsp; <a href="zev" class="word size0">ZEV</a> &nbsp; &nbsp; <a href="Zilh Dyun" class="word size0">ZILH DYUN</a> &nbsp; &nbsp; <a href="Zitin" class="word size0">ZITIN</a> &nbsp; &nbsp; <a href="Zoak" class="word size0">ZOAK</a> &nbsp; &nbsp; <a href="zok" class="word size0">ZOK</a> &nbsp; &nbsp; <a href="zong" class="word size0">ZONG</a> &nbsp; &nbsp; <a href="Zoo wanday" class="word size0">ZOO WANDAY</a> &nbsp; &nbsp; <a href="Zoon" class="word size0">ZOON</a> &nbsp; &nbsp; <a href="Zoung" class="word size0">ZOUNG</a> &nbsp; &nbsp; <a href="Zounkotuk" class="word size0">ZOUNKOTUK</a> &nbsp; &nbsp; <a href="Zovazaet" class="word size0">ZOVAZAET</a> &nbsp; &nbsp; <a href="Zow" class="word size0">ZOW</a> &nbsp; &nbsp; <a href="Zuk" class="word size1">ZUK</a> &nbsp; &nbsp; <a href="Zukaam" class="word size0">ZUKAAM</a> &nbsp; &nbsp; <a href="Zuu" class="word size0">ZUU</a> &nbsp; &nbsp; <a href="zuv" class="word size0">ZUV</a> &nbsp; &nbsp; <a href="zuv vondmay" class="word size1">ZUV VONDMAY</a> &nbsp; &nbsp; <a href="Zyanun" class="word size0">ZYANUN</a> &nbsp; &nbsp; <a href="Zyate" class="word size0">ZYATE</a> &nbsp; &nbsp; <a href="Zyenun" class="word size0">ZYENUN</a> &nbsp; &nbsp; <a href="Zyuth" class="word size1">ZYUTH</a> &nbsp;<h4 class="alert alert-info"><i class="icon-ok-sign icon-large"></i><strong>&nbsp;&nbsp;840</strong> words/terms already added! &nbsp;&nbsp;&nbsp; Go ahead, add some you know ...<i class="icon-globe icon-large pull-right"></i></h4>
+<div class="row-fluid">
+  <div class="span8">
+    <div class="well well-small">
+    <div class="alert alert-info"><h4>Last 5 comments<i class="icon-comments icon-large pull-right"></i></h4></div>
+    
+<h5>Sami Ullah says about <a href="Kale Doud">
+	Kale Doud</a></h5>
+    <blockquote>
+  kale doud means headache  <div class="pull-right muted"><small>1 day ago</small></div>
+  </blockquote>
+<h5>Hussain says about <a href="Trath">
+	Trath</a></h5>
+    <blockquote>
+  Peyey kalas trath dala😂  <div class="pull-right muted"><small>1 day ago</small></div>
+  </blockquote>
+<h5>Sami Ullah says about <a href="Ponz">
+	Ponz</a></h5>
+    <blockquote>
+  ponz means monkey  <div class="pull-right muted"><small>1 day ago</small></div>
+  </blockquote>
+<h5>Mujeeb Hamid says about <a href="Tche">
+	Tche</a></h5>
+    <blockquote>
+  Tche is a simply used for 'you'   <div class="pull-right muted"><small>2 days ago</small></div>
+  </blockquote>
+<h5>Mujeeb Hamid says about <a href="Zyate">
+	Zyate</a></h5>
+    <blockquote>
+  Means shining ...  Like we use 'zyate heu', which means very beautiful  <div class="pull-right muted"><small>2 days ago</small></div>
+  </blockquote>
+<!--<p><a href="comments.php" class="commentheader">Read more comments ....</a></p>-->
+    </div>
+  </div>
+  <div class="span4">
+    <div class="well well-small">
+    <div class="alert alert-success"><h4>Top 5 Contributors<i class="icon-group icon-large pull-right"></i></h4></div>
+    <link rel="stylesheet" href="wordcloud.css" type="text/css">
+
+
+ &nbsp; <span class="word size7">AMIT RAINA (55)</span> &nbsp; &nbsp; <span class="word size6">AMRIT (48)</span> &nbsp; &nbsp; <span class="word size9">ASHWANI (87)</span> &nbsp; &nbsp; <span class="word size5">KAPIL (36)</span> &nbsp; &nbsp; <span class="word size7">SHIKHA (58)</span> &nbsp;    </div>
+    <div class="well well-small">
+    <div class="alert"><h4>Last 5 additions<i class="icon-heart icon-large pull-right"></i></h4></div>
+    
+<h5><a href="kale doud">Kale Doud</a> <span class="muted">added by</span> Sami Ullah 
+  <div class="pull-right muted"><small>1 day ago</small></div></h5>
+<h5><a href="ponz">Ponz</a> <span class="muted">added by</span> Sami Ullah 
+  <div class="pull-right muted"><small>1 day ago</small></div></h5>
+<h5><a href="Tche">Tche</a> <span class="muted">added by</span> Mujeeb Hamid 
+  <div class="pull-right muted"><small>2 days ago</small></div></h5>
+<h5><a href="Zyate">Zyate</a> <span class="muted">added by</span> Mujeeb Hamid 
+  <div class="pull-right muted"><small>2 days ago</small></div></h5>
+<h5><a href="Poonz">Poonz</a> <span class="muted">added by</span> Danish  
+  <div class="pull-right muted"><small>2 days ago</small></div></h5>
+<!--<p><a href="comments.php" class="commentheader">Read more comments ....</a></p>-->
+
+    </div>
+  </div>
 </div>
-</header>
-<div id="secondary" class="secondary">
-<nav id="site-navigation" class="main-navigation" role="navigation">
-<div class="menu-top-menu-bar-container"><ul id="menu-top-menu-bar" class="nav-menu"><li id="menu-item-918" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-918"><a href="http://fossasia.org">Home</a></li>
-<li id="menu-item-919" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-919"><a href="http://fossasia.org/about/">About</a>
-<ul class="sub-menu">
-<li id="menu-item-3864" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3864"><a href="http://fossasia.org/about#background">Background &#038; Mission</a></li>
-<li id="menu-item-4041" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-4041"><a href="http://fossasia.org/licenses">Licenses</a></li>
-<li id="menu-item-3863" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3863"><a href="http://fossasia.org/team">Team</a></li>
-</ul>
-</li>
-<li id="menu-item-3785" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3785"><a href="http://fossasia.org/apply.html">Apply</a>
-<ul class="sub-menu">
-<li id="menu-item-12814" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12814"><a href="http://codeheat.org">Codeheat</a></li>
-</ul>
-</li>
-<li id="menu-item-2888" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2888"><a href="https://github.com/fossasia">Contribute</a></li>
-<li id="menu-item-920" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-920"><a href="http://labs.fossasia.org/#projects">Projects</a></li>
-<li id="menu-item-921" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-921"><a href="https://blog.fossasia.org">Blog</a></li>
-<li id="menu-item-922" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-922"><a href="http://events.fossasia.org">Events</a>
-<ul class="sub-menu">
-<li id="menu-item-3654" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3654"><a href="http://events.fossasia.org/#sponsorship">Sponsorship</a></li>
-<li id="menu-item-13730" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13730"><a href="https://calendar.fossasia.org">Event Calendar</a></li>
-<li id="menu-item-3655" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3655"><a href="http://eventyay.com">Open Source Event Management</a></li>
-<li id="menu-item-3677" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3677"><a href="http://sciencehack.asia">Sciencehack.Asia</a></li>
-<li id="menu-item-3684" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3684"><a href="http://sciencehack.in">Science Hack India</a></li>
-<li id="menu-item-12677" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12677"><a href="http://2018.fossasia.org">FOSSASIA Summit 2018</a></li>
-<li id="menu-item-12815" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12815"><a href="http://opentechsummit.cn">OpenTechSummit China</a></li>
-<li id="menu-item-12816" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12816"><a href="http://jugaadfest.com">Jugaadfest India</a></li>
-<li id="menu-item-1805" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1805"><a href="http://2017.fossasia.org">FOSSASIA Summit 2017</a></li>
-<li id="menu-item-1806" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1806"><a href="http://2016.fossasia.org">FOSSASIA Summit 2016</a></li>
-<li id="menu-item-1807" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1807"><a href="http://2015.fossasia.org">FOSSASIA Summit 2015</a></li>
-<li id="menu-item-1808" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1808"><a href="http://2014.fossasia.org">FOSSASIA Summit 2014</a></li>
-<li id="menu-item-1809" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1809"><a href="http://2012.fossasia.org">FOSSASIA Summit 2012</a></li>
-<li id="menu-item-1810" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1810"><a href="http://2011.fossasia.org">FOSSASIA Summit 2011</a></li>
-<li id="menu-item-1811" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1811"><a href="http://2010.fossasia.org">FOSSASIA Summit 2010</a></li>
-<li id="menu-item-1812" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1812"><a href="https://wiki.debian.org/DebianVietnam/MiniDebConf2010">MiniDebConf Vietnam 2010</a></li>
-<li id="menu-item-1804" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1804"><a href="http://2009.fossasia.org">GNOME.Asia 2009</a></li>
-</ul>
-</li>
-<li id="menu-item-1097" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1097"><a href="http://fossasia.org/donate/">Donate</a></li>
-<li id="menu-item-923" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-923"><a href="https://blog.fossasia.org/contact/">Contact</a></li>
-</ul></div> </nav>
-<div id="widget-area" class="widget-area" role="complementary">
-<aside id="wpcom_social_media_icons_widget-3" class="widget widget_wpcom_social_media_icons_widget"><h2 class="widget-title">Social</h2><ul><li><a href="https://www.facebook.com/fossasia/" class="genericon genericon-facebook" target="_blank"><span class="screen-reader-text">View fossasia&#8217;s profile on Facebook</span></a></li><li><a href="https://twitter.com/fossasia/" class="genericon genericon-twitter" target="_blank"><span class="screen-reader-text">View fossasia&#8217;s profile on Twitter</span></a></li><li><a href="https://www.linkedin.com/in/mariobehling/" class="genericon genericon-linkedin" target="_blank"><span class="screen-reader-text">View mariobehling&#8217;s profile on LinkedIn</span></a></li><li><a href="https://github.com/fossasia/" class="genericon genericon-github" target="_blank"><span class="screen-reader-text">View fossasia&#8217;s profile on GitHub</span></a></li><li><a href="https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ/" class="genericon genericon-youtube" target="_blank"><span class="screen-reader-text">View UCQprMsG-raCIMlBudm20iLQ&#8217;s profile on YouTube</span></a></li><li><a href="https://plus.google.com/u/0/108920596016838318216/" class="genericon genericon-googleplus" target="_blank"><span class="screen-reader-text">View 108920596016838318216&#8217;s profile on Google+</span></a></li><li><a href="https://www.flickr.com/photos/fossasia/" class="genericon genericon-flickr" target="_blank"><span class="screen-reader-text">View fossasia&#8217;s profile on Flickr</span></a></li></ul></aside><aside id="search-2" class="widget widget_search"><form role="search" method="get" class="search-form" action="https://blog.fossasia.org/">
-<label>
-<span class="screen-reader-text">Search for:</span>
-<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
-</label>
-<input type="submit" class="search-submit screen-reader-text" value="Search" />
-</form></aside><aside id="twitter_timeline-2" class="widget widget_twitter_timeline"><a class="twitter-timeline" data-theme="light" data-link-color="#f96e5b" data-border-color="#e8e8e8" data-tweet-limit="2" data-lang="EN" data-partner="jetpack" data-chrome="nofooter noborders noscrollbar transparent" href="https://twitter.com/fossasia" href="https://twitter.com/fossasia">My Tweets</a></aside><aside id="tag_cloud-2" class="widget widget_tag_cloud"><h2 class="widget-title">Tags</h2><div class="tagcloud"><ul class='wp-tag-cloud' role='list'>
-<li><a href="https://blog.fossasia.org/tag/ai/" class="tag-cloud-link tag-link-1299 tag-link-position-1" style="font-size: 9.75pt;" aria-label="AI (47 items)">AI</a></li>
-<li><a href="https://blog.fossasia.org/tag/android/" class="tag-cloud-link tag-link-377 tag-link-position-2" style="font-size: 17.264705882353pt;" aria-label="android (254 items)">android</a></li>
-<li><a href="https://blog.fossasia.org/tag/angular/" class="tag-cloud-link tag-link-674 tag-link-position-3" style="font-size: 8.2058823529412pt;" aria-label="Angular (33 items)">Angular</a></li>
-<li><a href="https://blog.fossasia.org/tag/api/" class="tag-cloud-link tag-link-85 tag-link-position-4" style="font-size: 12.323529411765pt;" aria-label="API (84 items)">API</a></li>
-<li><a href="https://blog.fossasia.org/tag/artificial-intelligence/" class="tag-cloud-link tag-link-819 tag-link-position-5" style="font-size: 11.088235294118pt;" aria-label="Artificial Intelligence (64 items)">Artificial Intelligence</a></li>
-<li><a href="https://blog.fossasia.org/tag/asksusi/" class="tag-cloud-link tag-link-653 tag-link-position-6" style="font-size: 11.808823529412pt;" aria-label="asksusi (75 items)">asksusi</a></li>
-<li><a href="https://blog.fossasia.org/tag/citizen-science/" class="tag-cloud-link tag-link-212 tag-link-position-7" style="font-size: 9.75pt;" aria-label="Citizen Science (47 items)">Citizen Science</a></li>
-<li><a href="https://blog.fossasia.org/tag/css/" class="tag-cloud-link tag-link-394 tag-link-position-8" style="font-size: 8pt;" aria-label="css (31 items)">css</a></li>
-<li><a href="https://blog.fossasia.org/tag/documentation/" class="tag-cloud-link tag-link-569 tag-link-position-9" style="font-size: 8.7205882352941pt;" aria-label="documentation (37 items)">documentation</a></li>
-<li><a href="https://blog.fossasia.org/tag/ember-js/" class="tag-cloud-link tag-link-734 tag-link-position-10" style="font-size: 10.367647058824pt;" aria-label="ember JS (54 items)">ember JS</a></li>
-<li><a href="https://blog.fossasia.org/tag/flask/" class="tag-cloud-link tag-link-411 tag-link-position-11" style="font-size: 11.808823529412pt;" aria-label="flask (75 items)">flask</a></li>
-<li><a href="https://blog.fossasia.org/tag/fossasia/" class="tag-cloud-link tag-link-7 tag-link-position-12" style="font-size: 22pt;" aria-label="FOSSASIA (738 items)">FOSSASIA</a></li>
-<li><a href="https://blog.fossasia.org/tag/github/" class="tag-cloud-link tag-link-417 tag-link-position-13" style="font-size: 8.1029411764706pt;" aria-label="github (32 items)">github</a></li>
-<li><a href="https://blog.fossasia.org/tag/google_summer_of_code/" class="tag-cloud-link tag-link-24 tag-link-position-14" style="font-size: 14.382352941176pt;" aria-label="Google Summer of Code (135 items)">Google Summer of Code</a></li>
-<li><a href="https://blog.fossasia.org/tag/gsoc/" class="tag-cloud-link tag-link-23 tag-link-position-15" style="font-size: 19.220588235294pt;" aria-label="GSoC (395 items)">GSoC</a></li>
-<li><a href="https://blog.fossasia.org/tag/gsoc17/" class="tag-cloud-link tag-link-700 tag-link-position-16" style="font-size: 17.264705882353pt;" aria-label="GSoC17 (255 items)">GSoC17</a></li>
-<li><a href="https://blog.fossasia.org/tag/gsoc18/" class="tag-cloud-link tag-link-2492 tag-link-position-17" style="font-size: 11.088235294118pt;" aria-label="GSoC18 (63 items)">GSoC18</a></li>
-<li><a href="https://blog.fossasia.org/tag/java/" class="tag-cloud-link tag-link-585 tag-link-position-18" style="font-size: 11.088235294118pt;" aria-label="java (64 items)">java</a></li>
-<li><a href="https://blog.fossasia.org/tag/javascript/" class="tag-cloud-link tag-link-275 tag-link-position-19" style="font-size: 11.294117647059pt;" aria-label="Javascript (66 items)">Javascript</a></li>
-<li><a href="https://blog.fossasia.org/tag/json/" class="tag-cloud-link tag-link-427 tag-link-position-20" style="font-size: 8.9264705882353pt;" aria-label="json (39 items)">json</a></li>
-<li><a href="https://blog.fossasia.org/tag/loklak/" class="tag-cloud-link tag-link-115 tag-link-position-21" style="font-size: 14.897058823529pt;" aria-label="loklak (151 items)">loklak</a></li>
-<li><a href="https://blog.fossasia.org/tag/meilix/" class="tag-cloud-link tag-link-258 tag-link-position-22" style="font-size: 9.1323529411765pt;" aria-label="Meilix (41 items)">Meilix</a></li>
-<li><a href="https://blog.fossasia.org/tag/open-event/" class="tag-cloud-link tag-link-438 tag-link-position-23" style="font-size: 20.147058823529pt;" aria-label="open event (489 items)">open event</a></li>
-<li><a href="https://blog.fossasia.org/tag/open-event-frontend/" class="tag-cloud-link tag-link-683 tag-link-position-24" style="font-size: 11.088235294118pt;" aria-label="open event frontend (64 items)">open event frontend</a></li>
-<li><a href="https://blog.fossasia.org/tag/open-event-server/" class="tag-cloud-link tag-link-441 tag-link-position-25" style="font-size: 8.8235294117647pt;" aria-label="open event server (38 items)">open event server</a></li>
-<li><a href="https://blog.fossasia.org/tag/open-science/" class="tag-cloud-link tag-link-251 tag-link-position-26" style="font-size: 9.75pt;" aria-label="Open Science (47 items)">Open Science</a></li>
-<li><a href="https://blog.fossasia.org/tag/open_source/" class="tag-cloud-link tag-link-16 tag-link-position-27" style="font-size: 11.5pt;" aria-label="Open Source (69 items)">Open Source</a></li>
-<li><a href="https://blog.fossasia.org/tag/open-source/" class="tag-cloud-link tag-link-170 tag-link-position-28" style="font-size: 10.161764705882pt;" aria-label="open source (51 items)">open source</a></li>
-<li><a href="https://blog.fossasia.org/tag/organizer-server/" class="tag-cloud-link tag-link-447 tag-link-position-29" style="font-size: 10.985294117647pt;" aria-label="organizer server (62 items)">organizer server</a></li>
-<li><a href="https://blog.fossasia.org/tag/personal-assistant/" class="tag-cloud-link tag-link-820 tag-link-position-30" style="font-size: 10.882352941176pt;" aria-label="Personal Assistant (60 items)">Personal Assistant</a></li>
-<li><a href="https://blog.fossasia.org/tag/phimpme/" class="tag-cloud-link tag-link-701 tag-link-position-31" style="font-size: 11.191176470588pt;" aria-label="phimpme (65 items)">phimpme</a></li>
-<li><a href="https://blog.fossasia.org/tag/pslab/" class="tag-cloud-link tag-link-128 tag-link-position-32" style="font-size: 12.838235294118pt;" aria-label="PSLab (94 items)">PSLab</a></li>
-<li><a href="https://blog.fossasia.org/tag/python/" class="tag-cloud-link tag-link-124 tag-link-position-33" style="font-size: 14.073529411765pt;" aria-label="Python (124 items)">Python</a></li>
-<li><a href="https://blog.fossasia.org/tag/semantic-ui/" class="tag-cloud-link tag-link-735 tag-link-position-34" style="font-size: 8.5147058823529pt;" aria-label="semantic UI (35 items)">semantic UI</a></li>
-<li><a href="https://blog.fossasia.org/tag/steam/" class="tag-cloud-link tag-link-256 tag-link-position-35" style="font-size: 9.75pt;" aria-label="sTeam (47 items)">sTeam</a></li>
-<li><a href="https://blog.fossasia.org/tag/susi/" class="tag-cloud-link tag-link-693 tag-link-position-36" style="font-size: 14.485294117647pt;" aria-label="Susi (136 items)">Susi</a></li>
-<li><a href="https://blog.fossasia.org/tag/susi-ai/" class="tag-cloud-link tag-link-745 tag-link-position-37" style="font-size: 16.852941176471pt;" aria-label="SUSI.AI (236 items)">SUSI.AI</a></li>
-<li><a href="https://blog.fossasia.org/tag/susi-web-chat/" class="tag-cloud-link tag-link-752 tag-link-position-38" style="font-size: 8.6176470588235pt;" aria-label="SUSI Web Chat (36 items)">SUSI Web Chat</a></li>
-<li><a href="https://blog.fossasia.org/tag/susper/" class="tag-cloud-link tag-link-667 tag-link-position-39" style="font-size: 10.676470588235pt;" aria-label="Susper (58 items)">Susper</a></li>
-<li><a href="https://blog.fossasia.org/tag/testing/" class="tag-cloud-link tag-link-282 tag-link-position-40" style="font-size: 8.1029411764706pt;" aria-label="Testing (32 items)">Testing</a></li>
-<li><a href="https://blog.fossasia.org/tag/tutorial/" class="tag-cloud-link tag-link-338 tag-link-position-41" style="font-size: 13.558823529412pt;" aria-label="Tutorial (111 items)">Tutorial</a></li>
-<li><a href="https://blog.fossasia.org/tag/ui/" class="tag-cloud-link tag-link-473 tag-link-position-42" style="font-size: 9.2352941176471pt;" aria-label="UI (42 items)">UI</a></li>
-<li><a href="https://blog.fossasia.org/tag/yacy/" class="tag-cloud-link tag-link-116 tag-link-position-43" style="font-size: 9.2352941176471pt;" aria-label="yacy (42 items)">yacy</a></li>
-<li><a href="https://blog.fossasia.org/tag/yacy-grid/" class="tag-cloud-link tag-link-1225 tag-link-position-44" style="font-size: 8.2058823529412pt;" aria-label="Yacy-Grid (33 items)">Yacy-Grid</a></li>
-<li><a href="https://blog.fossasia.org/tag/yaydoc/" class="tag-cloud-link tag-link-691 tag-link-position-45" style="font-size: 9.5441176470588pt;" aria-label="yaydoc (45 items)">yaydoc</a></li>
-</ul>
+<div class="well well-small">
+<p class="muted">This is NO Wikipedia, this is not intended to be any "authoritative" encyclopedia of knowledge. This site is meant to collect information that may not fit the high and mighty standards of Wikipedia or an encyclopedia.It can catalog anecdotes, funny things your grandmother used to say and you fear that if you don't write it down somewhere, no one will ever repeat it again. That is the purpose of this website - write it down before it disappears forever.</p>
 </div>
-</aside> <aside id="recent-posts-2" class="widget widget_recent_entries"> <h2 class="widget-title">Recent Posts</h2> <ul>
-<li>
-<a href="https://blog.fossasia.org/deploying-susper-on-heroku/">Deploying Susper On Heroku</a>
-</li>
-<li>
-<a href="https://blog.fossasia.org/mapping-events-to-load-from-database/">Mapping Events to Load from Database</a>
-</li>
-<li>
-<a href="https://blog.fossasia.org/displaying-charts-on-lightbox/">Displaying Charts on Lightbox</a>
-</li>
-<li>
-<a href="https://blog.fossasia.org/creating-multiple-attendee-details-sections-in-open-event-android/">Creating multiple Attendee Details sections in Open Event Android</a>
-</li>
-</ul>
-</aside><aside id="text-2" class="widget widget_text"><h2 class="widget-title">Subscribe</h2> <div class="textwidget"><form action="https://freelayers.net/subscribe" method="POST" accept-charset="utf-8">
-<label for="name">Name</label><br />
-<input type="text" name="name" id="name" />
-<br />
-<label for="email">Email</label><br />
-<input type="email" name="email" id="email" />
-<br />
-<label for="FirstName">FirstName</label><br />
-<input type="text" name="FirstName" id="FirstName" /><br />
-<div style="display:none;">
-<label for="hp">HP</label><br />
-<input type="text" name="hp" id="hp" />
-</div>
-<input type="hidden" name="list" value="A8fchTRvBw2wap1ojIfjyQ" />
-<input type="hidden" name="subform" value="yes" />
-<input type="submit" name="submit" id="submit" />
-</form></div>
-</aside><aside id="text-4" class="widget widget_text"> <div class="textwidget"><iframe scrolling="no" frameborder="0" allowtransparency="true" style="border: none; overflow: hidden; width:100%; height: 220px;" src="https://www.facebook.com/plugins/likebox.php?id=126893747338271&amp;width=230&amp;connections=15&amp;stream=false&amp;header=false&amp;height=395"></iframe></div>
-</aside> </div>
-</div>
-</div>
-<div id="content" class="site-content">
-<div id="primary" class="content-area">
-<main id="main" class="site-main" role="main">
-<section class="error-404 not-found">
-<header class="page-header">
-<h1 class="page-title">Oops! That page can&rsquo;t be found.</h1>
-</header>
-<div class="page-content">
-<p>It looks like nothing was found at this location. Maybe try a search?</p>
-<form role="search" method="get" class="search-form" action="https://blog.fossasia.org/">
-<label>
-<span class="screen-reader-text">Search for:</span>
-<input type="search" class="search-field" placeholder="Search &hellip;" value="" name="s" />
-</label>
-<input type="submit" class="search-submit screen-reader-text" value="Search" />
-</form> </div>
-</section>
-</main>
-</div>
-</div>
-<footer id="colophon" class="site-footer" role="contentinfo">
-<div class="site-info">
-<a href="https://wordpress.org/">Proudly powered by WordPress</a>
-</div>
-</footer>
-</div>
-<div style="display:none">
-</div>
-<script type='text/javascript' src='https://blog.fossasia.org/wp-content/plugins/jetpack/_inc/build/photon/photon.min.js?ver=20130122'></script>
-<script type='text/javascript' src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=201834'></script>
-<script type='text/javascript' src='https://secure.gravatar.com/js/gprofiles.js?ver=2018Augaa'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var WPGroHo = {"my_hash":""};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://blog.fossasia.org/wp-content/plugins/jetpack/modules/wpgroho.js?ver=4.9.8'></script>
-<script type='text/javascript' src='https://blog.fossasia.org/wp-content/themes/twentyfifteen/js/skip-link-focus-fix.js?ver=20141010'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://blog.fossasia.org/wp-content/themes/twentyfifteen/js/functions.js?ver=20150330'></script>
-<script type='text/javascript' src='https://blog.fossasia.org/wp-content/plugins/jetpack/_inc/build/twitter-timeline.min.js?ver=4.0.0'></script>
-<script type='text/javascript' src='https://blog.fossasia.org/wp-content/plugins/jetpack/_inc/build/likes/queuehandler.min.js?ver=6.4.2'></script>
-<script type='text/javascript' src='https://blog.fossasia.org/wp-includes/js/wp-embed.min.js?ver=4.9.8'></script>
-<script type='text/javascript' src='https://stats.wp.com/e-201834.js' async='async' defer='defer'></script>
-<script type='text/javascript'>
-	_stq = window._stq || [];
-	_stq.push([ 'view', {v:'ext',j:'1:6.4.2',blog:'113450817',post:'0',tz:'8',srv:'blog.fossasia.org'} ]);
-	_stq.push([ 'clickTrackerInit', '113450817', '0' ]);
-</script>
-</body>
+
+    <footer>
+        <div class="well well-small">
+        <span class="btn btn-info"><i class="icon-gift icon-large icon-white"></i>
+          <script>
+		  	if ((typeof $.cookie('uname') !== "undefined") && $.cookie('uname') != '')  {document.write($.cookie('uname')); $('#sb').hide(); $('#em').hide();  };
+          </script>
+         </span> 
+<!--         <span class="horiz-mid">
+         	<a href="https://twitter.com/kashmirpedia" class="twitter-follow-button" data-show-count="false" data-size="small" data-dnt="true">Follow @kashmirpedia</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');
+            </script>
+          </span>
+-->          Thank you for helping make this community project a success and in helping catalog Kashmir and all amazing Kashmiri terms for generations to come
+
+        </div>
+    </footer>
+</div>     
+</body>	
 </html>

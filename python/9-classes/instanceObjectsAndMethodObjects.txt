@@ -1,0 +1,27 @@
+class MyClass:
+	i = 12345
+	def f(self):
+		return 'hello world'
+
+		
+
+
+							Instance Objects
+
+The only operation understood by instance objects are attribute references.
+There are two kinds of valid attribute names, data attributes and methods.
+
+Data attributes correspond to 'data members' in c++. Data attributes need not be declared; like local variables, they spring into existence when they are first assigned to.
+
+The other kind of instance attribute reference is a method. A method is a function that 'belongs to' an object. 
+Valid method names of an instance object depend on its class. By definition, all attributes of a class that are function objects define corresponding methods of its instances. 
+
+
+							Method Objects
+
+Usually, a method is called right after it is bound:
+
+x.f()
+
+In the MyClass example, this will return the string 'hello world'. However, its not necessary to call a method right away: x.f is a method object, and can be stored away and called  at later time.
+ 
