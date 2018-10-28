@@ -1,0 +1,13 @@
+				Package Management in Ubuntu
+
+For installing, upgrading, configuring and removing software. 
+In addition to providing access to an organised base of over 45,000 software packages , the package management facilities also feature dependency resolution capabilities and software update checking.
+
+Certain runtime libraries are needed by each Linux program. Because the libraries can be shared among many programs that need the same libraries, the programs don't normally come with the libraries they need. Instead, they tell the package manager that they need those libraries installed first before the program will work (or if you're compiling from source, the configure program should tell you if you're missing the needed libraries). Those libraries are called dependencies, because the program you're trying to install depends on them.
+
+A good package manager will check whether you have those libraries installed already, and then try to download and install any that are missing. That's called automatic dependency resolution. Debian's apt (advanced package tool) is legendary for good dependency handling; I understand yum is also very capable. The original rpm (RedHat package manager) didn't do it at all--it would tell you what dependencies were missing, but you were on your own to find and install.
+
+
+The package files contain all the necessary files, meta-data, and instructions to implement a particular functionality or software app.
+Packages are normally in a pre-compiled binary format; thus installation is quick and requires no compiling of software.
+Many complex packages use dependencies. Dependencies are additional packages required by the principal package in order to function properly. For example, the speech synthesis package festival depends upon the package libasound2, which is a package supplying the ALSA sound library needed for audio playback. In order for festival to function, it and all of its dependencies must be installed. The software management tools in Ubuntu will do this automatically.

@@ -1,0 +1,75 @@
+			MANAGING PACKAGES WITH PIP
+
+
+ pip  is a Python package installer, recommended for installing Python packages which are not available in the Debian archive.  It can work with version control repositories (currently only Git, Mercurial, and Bazaar repositories), logs output extensively,  and  prevents  partial  installs  by  downloading  all requirements before starting installation.
+
+On Debian, pip is the command to use when installing packages for Python 2, while pip3 is the command to use when installing packages for Python 3.
+
+Python Package Index
+The Python Package Index (abbreviated as PyPI) and also known as the Cheese Shop is the official third-party software repository for Python. It primarily hosts Python packages in the form of archives called 'sdists' (source distributions) or precompiled wheels (you will see this later). In a sentence: PyPI is as a giant online repository of modules that are accepted by the Python community.
+
+PyPI lets you submit any number of versions of your distribution to the index. If you alter the metadata for a particular version, you can submit it again and the index will be updated. PyPI holds a record for each (name, version) combination submitted. As an end-user you can search for packages by keywords or by filters against their metadata, and thus behaving as an index. Over 113,000 Python packages can be accessed through PyPI.
+
+Why should you be aware of PyPI? Because it describes distributions packaged with 'distutils', as well as package data like distribution files if the package author wishes. It is also where 'easy_install' and 'Pip' search for available packages, by default (More on this coming up later).
+
+
+Distutils
+Distutils is the standard tool for packaging in Python. It is included in the standard library (Python 2 and Python 3.0 to 3.6). Distutils exposes two commands for submitting package data to PyPI: the register command for submitting metadata to PyPI and the upload command for submitting distribution files.
+
+Register your package
+The distutils command register is used to submit your distribution’s metadata to the index. You can invoke it with the command:
+
+python setup.py register
+You will then be prompted to login or register to be able to submit your distribution package. You may submit any number of versions of your distribution to the index. If you alter the metadata for a particular version, you may submit it again and the index will be updated.
+
+Upload your package
+The distutils command upload pushes the distribution files to PyPI.
+
+
+
+
+We can install, upgrade and removee packages using a program called pip.
+
+		to search a package:		pip search <packagename>
+
+	
+pip has number of sub-commands : search, install, uninstall, freeze etc
+
+		installing latest version of a package:		pip install <packagename>
+
+		to install a specific version of package:		pip install <packagename> == <versionnumber>
+
+		to upgrade package to the latest version:	pip install --upgrade <packagename>
+	
+		to uninstall a package:		pip uninstall <packagename>
+		
+		to display info about a particular package:	pip show <packagename>
+
+		to list all the packages installed in the virtual environment:	pip list
+
+		pip freeze 	--will produce a similar list of the installed packages, but the output uses the format that 
+				pip install expects. A common convention is to put this list in a requirements.txt file.
+
+				The requirements.txt can then be committed to version control and shipped as part of an appliocation.				     Users can then install all the necessary packages with  
+				
+				install -r
+
+COMMANDS
+       The command comes before any options.  The following commands are recognized:
+
+       help   		Show help for commands.
+
+       install		Install packages.
+
+       uninstall	Uninstall packages.
+
+       freeze 		Output installed packages in requirements format.
+
+       list   		List installed packages.
+
+       show   		Show information about installed packages.
+
+       search 		Search PyPI for packages.
+
+       wheel  		Build wheels from your requirements.
+

@@ -1,0 +1,20 @@
+				dpkg package manager
+
+
+dpkg is a package manager for Debian-based systems.
+It can install, remove and build packages, but unlike other package management systems, it cannot automatically download and install packages or their dependencies.
+
+			to list all packages installed on the system:	dpkg -l
+
+			to find a specific package if installed:	dpkg -l | grep <packagename>
+			
+			to list the files installed by a package:	dpkg -L <packagename>
+
+			to find which package installed a file:		dpkg -S <path/filename>
+
+			to install a local .deb (debian package) file:		sudo dpkg -i <filename.deb>
+
+			to uninstall a package:		sudo dpkg -r <filename>		----not recommended as it can cause dependency failures			
+	
+
+
