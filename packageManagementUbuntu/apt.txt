@@ -1,0 +1,24 @@
+			Advanced packaging Tool (apt)
+
+
+The apt command is a powerful command-line tool, which works with Ubuntu's Advanced Packaging Tool (APT) performing such functions as installation of new software packages, upgrade of existing software packages, updating of the package list index, and even upgrading the entire Ubuntu system.
+
+Being a simple command-line tool, apt has numerous advantages over other package management tools available in Ubuntu for server administrators. Some of these advantages include ease of use over simple terminal connections (SSH), and the ability to be used in system administration scripts, which can in turn be automated by the cron scheduling utility.
+
+
+			install a package:	sudo apt install <packagename>
+
+			remove a package:	sudo apt remove <packagename>
+
+									--- we can specify multiple packages to be removed or installed, separated by spaces
+
+									--- the --purge option will remove the package config files as well.
+
+			update the package index:	sudo apt update
+
+			upgrade packages:	sudo apt upgrade
+
+
+
+
+Actions of the apt command, such as installation and removal of packages, are logged in the /var/log/dpkg.log log file.
